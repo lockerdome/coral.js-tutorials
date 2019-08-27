@@ -1,0 +1,12 @@
+<div class="cursor-pointer">
+  <div>
+    <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+    <p>Click around this demo area.</p>
+  </div>
+
+  <div class="mb-4">
+    <strong>{{elementLabel}}</strong>
+    <p><span class="font-monospace">outerClickCount:</span> <strong>{{outerClickCount}}</strong></p>
+    <div>{{{innerElements}}}</div>
+  </div>
+</div>

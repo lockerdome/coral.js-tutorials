@@ -1,0 +1,20 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>The Environment makes it easy for descendant elements and models to have access to values.</p>
+</div>
+
+<hr>
+
+<div class="mb-4">
+  <div style="width: 500px;">
+    <div class="mb-3">
+      <strong>Your Input:</strong> <input type="number" class="form-control mb-2" value="{{inputNumber}}" placeholder="Enter a number">
+    </div>
+    <div>
+      <div><strong>Level 1</strong></div>
+      <div>regularNumber: {{regularNumber}}</div>
+      <div>magicNumber: {{environment.magicNumber}}</div>
+    </div>
+    {{{innerElement}}}
+  </div>
+</div>

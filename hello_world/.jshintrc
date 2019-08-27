@@ -1,0 +1,16 @@
+{
+  "strict": false,
+  "evil": true,
+  "browser": true,
+  "eqnull": true,
+  "eqeqeq": true,
+  "globalstrict": false,
+  "globals": {
+    "Coral": true,
+    "constant": true,
+    "element_template": true,
+    "model_template": true,
+    "use_view": true,
+    "template": true
+  }
+}

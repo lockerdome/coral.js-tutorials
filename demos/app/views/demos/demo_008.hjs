@@ -1,0 +1,11 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Put your math skills to the test. Click any multiplication on the charts to see the product.</p>
+</div>
+
+<hr>
+
+<div class="mb-4">
+  <h1 class="display-3">{{selectedBaseValue || '?'}} x {{selectedMultiplier || '?'}} = {{product || '?'}}</h1>
+  <div>{{{multiplicationCharts}}}</div>
+</div>

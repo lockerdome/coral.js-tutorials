@@ -1,0 +1,14 @@
+<div class="card mb-2" style="width: 18rem;">
+  {{#if imagePath}}
+    <img src="{{imagePath}}" class="card-img-top" alt="{{altText}}">
+  {{#endif}}
+  <div class="card-body">
+    <h5 class="{{text ? 'card-title' : ''}}">{{title}}</h5>
+    {{#if text}}
+      <p class="card-text">{{text}}</p>
+    {{#endif}}
+    {{#if buttonText && buttonLink}}
+      <a href="{{buttonLink}}" class="btn btn-info" target="blank">{{buttonText}}</a>
+    {{#endif}}
+  </div>
+</div>

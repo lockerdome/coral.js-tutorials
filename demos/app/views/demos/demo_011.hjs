@@ -1,0 +1,19 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Sometimes things take an unpredictable amount of time.</p>
+  <p>Sometimes things succeed.</p>
+  <p>Sometimes things fail.</p>
+</div>
+
+<hr>
+
+<div class="mb-4" style="width: 700; height: 200px;">
+  <div class="mb-3">
+    <button id="reload" type="button" class="btn btn-success mr-3">Reload Data: Simulate Data Fetch Success</button>
+    <button id="fail" type="button" class="btn btn-danger">Reload Data: Simulate Data Fetch Failure</button>
+  </div>
+
+  <div class="border rounded p-4">
+    {{{timeoutDisplayZone}}}
+  </div>
+</div>

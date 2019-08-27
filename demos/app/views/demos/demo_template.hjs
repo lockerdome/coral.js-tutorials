@@ -1,0 +1,10 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Additional description for the demo.</p>
+</div>
+
+<hr>
+
+<div class="mb-4">
+
+</div>

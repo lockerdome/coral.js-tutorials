@@ -1,0 +1,26 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Changing the starting value or clicking the Restart button restarts the countdown.</p>
+</div>
+
+<hr>
+
+<div class="mb-4">
+
+  <div style="width: 350px;">
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">Counting down from</span>
+      </div>
+      <input type="number" class="form-control" value="{{countDownStartingValue}}">
+      <div class="input-group-append">
+        <button class="btn btn-danger" type="button">Restart</button>
+      </div>
+    </div>
+
+    <div class="alert alert-info h4">
+      <strong>{{isInputBlank ? 'Enter a starting value.' : countdownMessage}}</strong>
+    </div>
+  </div>
+
+</div>

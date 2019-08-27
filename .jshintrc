@@ -1,0 +1,13 @@
+{
+  "extends": "../.jshintrc",
+  "strict": false,
+  "globalstrict": false,
+  "globals": {
+    "Observable": true,
+    "constant": true,
+    "element_template": true,
+    "model_template": true,
+    "use_view": true,
+    "template": true
+  }
+}

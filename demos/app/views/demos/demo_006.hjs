@@ -1,0 +1,23 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Add names of sea creatures to make a list of cards! <em> Examples: jellyfish, sea urchin, clam, seahorse, eel, lobster.</p></em>
+  <p>If you add a <strong>sea urchin</strong>, a more detailed card will display.</p>
+  <p>Duplicate entries do not get displayed.</p>
+
+</div>
+
+<hr>
+
+<div class="mt-4">
+
+  <div>
+    <h4>Add a sea creature:</h4>
+    {{{seaCreatureAdder}}}
+  </div>
+
+  <div class="mt-4">
+    <h4>Sea creatures added:</h4>
+    {{{seaCreatureListDisplay}}}
+  </div>
+
+</div>

@@ -1,0 +1,14 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Adjust the <strong>R</strong>ed, <strong>G</strong>reen, and <strong>B</strong>lue values to change the colour of the box.</p>
+</div>
+
+<hr>
+
+<div class="mt-4">
+  <div class="mt-2"><div style="{{labelStyling}}">R: <input type="number" min="0" max="255" value="{{redValue}}"></div><input id="red-slider" type="range" min="0" max="255" value="{{redValue}}" class="cursor-pointer"></div>
+  <div class="mt-2"><div style="{{labelStyling}}">G: <input type="number" min="0" max="255" value="{{greenValue}}"></div><input id="green-slider" type="range" min="0" max="255" value="{{greenValue}}" class="cursor-pointer"></div>
+  <div class="mt-2"><div style="{{labelStyling}}">B: <input type="number" min="0" max="255" value="{{blueValue}}"></div><input id="blue-slider" type="range" min="0" max="255" value="{{blueValue}}" class="cursor-pointer"></div>
+  <div class="mt-4 ml-2">rgb({{redValue}}, {{greenValue}}, {{blueValue}})</div>
+  <div class="mt-2" style="background-color: rgb({{redValue}}, {{greenValue}}, {{blueValue}}); height: 200px; width: 400px; border-radius: 10px;"></div>
+</div>

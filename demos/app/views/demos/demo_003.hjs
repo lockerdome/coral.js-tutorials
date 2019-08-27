@@ -1,0 +1,33 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Clicking the "click to +1" button increments the counter.</p>
+  <p>Clicking the "reset" button resets the counter to 0.</p>
+  <p>Different messages are displayed depending on the number of times the +1 button is clicked.</p>
+  <p>A fish shall display every 3rd click.</p>
+</div>
+
+<hr>
+
+<div class="mt-4">
+  <button type="button" id="reset" class="btn btn-warning mr-2">reset</button>
+  <button type="button" id="increment" class="btn btn-info mr-2">click to +1</button>
+  click counter: {{counterValue}}
+  <div style="min-width: 300px; min-height: 300px;" class="mt-3">
+    {{#if hasNotClicked}}
+      You haven't clicked the button at all.
+    {{#elseif hasClickedOnce}}
+      You have clicked the +1 button once.
+    {{#elseif hasClickedTwice}}
+      You have clicked the +1 button twice.
+    {{#else}}
+      {{#if counterValue === 3}}
+        You have clicked the +1 button three times.
+      {{#else}}
+        You have clicked the +1 button more than three times!
+      {{#endif}}
+      {{#if counterValue > 0 && isMultipleOfThree}}
+        <div class="mt-3"><img width="250" height="250" class="rounded" src="../../assets/images/doodles/blue_tang.png" alt="drawing of a blue tang"></div>
+      {{#endif}}
+    {{#endif}}
+  </div>
+</div>

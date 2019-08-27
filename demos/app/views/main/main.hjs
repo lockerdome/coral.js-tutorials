@@ -1,0 +1,43 @@
+<div id="root-dom-node">
+
+  <nav class="navbar navbar-light bg-light">
+    <!-- TOP BAR -->
+    <container class="mx-auto">
+      <a class="navbar-brand" href="#">
+        <img src="../../assets/brand/logo_proto.png" width="28" height="28" class="d-inline-block align-top rounded" alt="placeholder logo">
+        <span class="text-dark font-monospace">Coral.js Demos</span>
+      </a>
+    </container>
+  </nav>
+
+  <div class="container-fluid">
+
+    <div class="row flex-xl-nowrap">
+
+      <!-- SIDEBAR -->
+      <div id="sidebar" class="mt-2 col-12 col-xl-2 border-right">
+        <nav class="nav flex-column">
+          {{{sidebarItems}}}
+        </nav>
+      </div>
+
+      <!-- CONTENT -->
+      <main class="ml-4 mt-4 col-12 col-xl-9">
+        {{{content}}}
+      </main>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div class="mx-auto mt-2 mb-4" style="width: 300px;">
+    <small>
+      visit github:
+      <a href="https://github.com/lockerdome/coral.js-tutorials" target="blank" class="color-coral">coral.js-tutorials</a>
+      &nbsp;|&nbsp;
+      <a href="https://github.com/lockerdome/coral" target="blank" class="color-coral">coral.js</a>
+    </small>
+  </div>
+
+</div>

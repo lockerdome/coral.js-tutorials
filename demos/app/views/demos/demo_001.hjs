@@ -1,0 +1,11 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  Clicking the button increments the counter.
+</div>
+
+<hr>
+
+<div class="mt-4">
+  <button type="button" class="btn btn-info mr-2">click to +1</button>
+  click counter: {{counterValue}}
+</div>

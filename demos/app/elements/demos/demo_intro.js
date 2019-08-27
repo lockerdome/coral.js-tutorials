@@ -1,0 +1,3 @@
+var demo = {
+  params: ['title']
+};

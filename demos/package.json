@@ -1,0 +1,15 @@
+{
+  "name": "demos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demos and Tutorials app for Coral.js",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@lockerdome/coral.js": "1.0.0",
+    "jshint": "^2.10.2"
+  }
+}

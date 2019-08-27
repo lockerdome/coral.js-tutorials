@@ -1,0 +1,13 @@
+<div>
+  <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+  <p>Clicking the button increments the counter.</p>
+  <p>Even numbers will appear in <span class="text-primary">blue</span>.</p>
+  <p>Odd numbers will appear in <span class="text-danger">red</span>.</p>
+</div>
+
+<hr>
+
+<div class="mt-4">
+  <button type="button" class="btn btn-info mr-2">click to +1</button>
+  click counter: <span class="{{ isEven ? 'text-primary' : 'text-danger' }}">{{counterValue}}</span> {{isEven ? '(even)' : '(odd)'}}
+</div>

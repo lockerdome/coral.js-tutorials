@@ -1,0 +1,7 @@
+<h2 class="mb-3 font-weight-bolder">{{title}}</h2>
+
+<div>
+  <p>Welcome to the <a href="https://github.com/lockerdome/coral.js-tutorials/tree/master/demos" target="_blank">demos</a> app of <a href="https://github.com/lockerdome/coral.js-tutorials" target="_blank">coral.js-tutorials</a>. This app was built with <a href="https://github.com/lockerdome/coral">Coral.js</a>.</p>
+  <p>Here you will find a variety of examples that showcase the many different features of the Coral.js framework.</p>
+
+</div>
