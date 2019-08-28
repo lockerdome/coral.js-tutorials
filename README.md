@@ -3,6 +3,8 @@
 
 Coral.js is an open source project of [LockerDome](https://lockerdome.com).
 
+[Visit our live demo app here.](https://lockerdome.github.io/coral.js-tutorials/demos/static/)
+
 ###  Table of Contents
 * [List of Demos](#list_of_demos)
 * [How To Use This Repo](#how_to_use_this_repo)
@@ -11,7 +13,7 @@ Coral.js is an open source project of [LockerDome](https://lockerdome.com).
 
 # <a name="list_of_demos"></a> List of Demos
 * **hello_world** gets you started with a barebones Coral.js app ([code](https://github.com/lockerdome/coral.js-tutorials/tree/master/hello_world)).
-* **demos** is full of examples showcasing different features of Coral.js ([code](https://github.com/lockerdome/coral.js-tutorials/tree/master/demos)).
+* **demos** is full of examples showcasing different features of Coral.js ([code](https://github.com/lockerdome/coral.js-tutorials/tree/master/demos) | [live](https://lockerdome.github.io/coral.js-tutorials/demos/static/)).
 
 # <a name="how_to_use_this_repo"></a> How To Use This Repo
 
