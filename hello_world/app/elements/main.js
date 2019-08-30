@@ -1,1 +1,3 @@
-var main = {};
+var main = {
+  view: 'Hello, world!'
+};
