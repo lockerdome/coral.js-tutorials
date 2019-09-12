@@ -1,6 +1,13 @@
 <div>
   <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
   <p>Put your math skills to the test. Click any multiplication on the charts to see the product.</p>
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_008.js" target="_blank">app/elements/demos/demo_008.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_008.hjs" target="_blank">app/views/demos/demo_008.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>
