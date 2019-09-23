@@ -1,6 +1,13 @@
 <div>
   <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
   <p>Adjust the <strong>R</strong>ed, <strong>G</strong>reen, and <strong>B</strong>lue values to change the colour of the box.</p>
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_004.js" target="_blank">app/elements/demos/demo_004.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_004.hjs" target="_blank">app/views/demos/demo_004.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>

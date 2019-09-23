@@ -2,6 +2,13 @@
   <div>
     <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
     <p>Click around this demo area.</p>
+    <div>
+      <strong>Code</strong>
+      <ul>
+        <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_007.js" target="_blank">app/elements/demos/demo_007.js</a></li>
+        <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_007.hjs" target="_blank">app/views/demos/demo_007.hjs</a></li>
+      </ul>
+    </div>
   </div>
 
   <div class="mb-4">

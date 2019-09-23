@@ -35,9 +35,6 @@ var main = {
       { id: 'demo_011', title: '011: Data Fetch Simulator',
         description: 'Async Models, Zones, Callbacks, /* from */ Parameter annotation'
       }
-      // { id: 'demo_012', title: '012: Filter',
-      //   description: 'showWhen in Elements and Dynamic Element Lists'
-      // }
       // After adding a new demo here, remember to update the content Dynamic Element List below.
     ]
   },
