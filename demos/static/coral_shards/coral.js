@@ -4096,7 +4096,7 @@ Coral.sponges["԰"]=function (text) {
       css.onload = success;
       css.onerror = failure;
       document.body.appendChild(css);
-    };Coral.sponges["Մ"]=function load_dependency (dependency_name, dependency_input, dependency_type, coral_instance, loaded_callback, implied_deps) {
+    };Coral.sponges["Մ"]=function load_dependency(dependency_name, dependency_input, dependency_type, coral_instance, loaded_callback, implied_deps) {
       var dependency_registry = coral_instance.settings.dependency_registry;
       if (!dependency_registry) {
         coral_instance.settings.dependency_registry = {};
@@ -5120,138 +5120,106 @@ Coral.sponges["԰"]=function (text) {
       Coral.sponges["Դ"](frag,before_placement);
     };Coral.sponges["խ"]=function (val, scope, to_symbol) {
       Coral.Observable.scheduler.register_update(scope, to_symbol, val, false, false);
-    };Coral.sponges["ծ"]="card-img-top";Coral.sponges["կ"]="img";Coral.sponges["հ"]="src";Coral.sponges["ձ"]="class";Coral.sponges["ղ"]="alt";Coral.sponges["ճ"]=function(
-) {
+    };Coral.sponges["ծ"]="card-img-top";Coral.sponges["կ"]="img";Coral.sponges["հ"]="src";Coral.sponges["ձ"]="class";Coral.sponges["ղ"]="alt";Coral.sponges["ճ"]=function() {
 // Sync init element: _inner_view_scope$0
 this.M("կCFsհEձcղD").e()
-};Coral.sponges["մ"]=function(
-) {
+};Coral.sponges["մ"]=function() {
 // Async pre-init element: _inner_view_scope$0
 this.c("CF").h("F").k(1,0,0,3).b().B("cծ")
-};Coral.sponges["յ"]="card-text";Coral.sponges["ն"]="p";Coral.sponges["շ"]=function(
-) {
+};Coral.sponges["յ"]="card-text";Coral.sponges["ն"]="p";Coral.sponges["շ"]=function() {
 // Sync init element: _inner_view_scope$1
 this.M("նCEsձc").N("tDs").e()
-};Coral.sponges["ո"]=function(
-) {
+};Coral.sponges["ո"]=function() {
 // Async pre-init element: _inner_view_scope$1
 this.c("CE").h("E").k(1,0,0,2).b().B("cյ")
-};Coral.sponges["չ"]="btn btn-info";Coral.sponges["պ"]="blank";Coral.sponges["ջ"]="a";Coral.sponges["ռ"]="href";Coral.sponges["ս"]="target";Coral.sponges["վ"]=function(
-) {
+};Coral.sponges["չ"]="btn btn-info";Coral.sponges["պ"]="blank";Coral.sponges["ջ"]="a";Coral.sponges["ռ"]="href";Coral.sponges["ս"]="target";Coral.sponges["վ"]=function() {
 // Sync init element: _inner_view_scope$2
 this.M("ջCFsռEձcսd").N("tDs").e()
-};Coral.sponges["տ"]=function(
-) {
+};Coral.sponges["տ"]=function() {
 // Async pre-init element: _inner_view_scope$2
 this.c("CF").h("F").k(2,0,0,3).b().B("cչdպ")
 };Coral.sponges["ր"]="mb-3 font-weight-bolder";Coral.sponges["ց"]="mt-4";Coral.sponges["ւ"]=function (counterValue) {
       var _counterValue = counterValue.get();
       counterValue.set(_counterValue + 1);
-    };Coral.sponges["փ"]="click";Coral.sponges["ք"]="button";Coral.sponges["օ"]=0;Coral.sponges["ֆ"]="div";Coral.sponges["և"]="h2";Coral.sponges["ֈ"]=" Clicking the button increments the counter. ";Coral.sponges["։"]="<hr>";Coral.sponges["֊"]="<button type=\"button\" class=\"btn btn-info mr-2\">click to +1</button>";Coral.sponges["֋"]=" click counter: ";Coral.sponges["֌"]=" ";Coral.sponges["֍"]=function(
-) {
+    };Coral.sponges["փ"]="click";Coral.sponges["ք"]="button";Coral.sponges["օ"]=0;Coral.sponges["ֆ"]="div";Coral.sponges["և"]="h2";Coral.sponges["ֈ"]="<p>Clicking the button increments the counter.</p>";Coral.sponges["։"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_001.js\" target=\"_blank\">app/elements/demos/demo_001.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_001.hjs\" target=\"_blank\">app/views/demos/demo_001.hjs</a></li> </ul> </div>";Coral.sponges["֊"]="<hr>";Coral.sponges["֋"]="<button type=\"button\" class=\"btn btn-info mr-2\">click to +1</button>";Coral.sponges["֌"]=" click counter: ";Coral.sponges["֍"]=" ";Coral.sponges["֎"]=function() {
 // Sync init element: demos/demo_001
-this.C("rօ").L("ֆCst").M("ևtuvձc").N("wDv").I(Coral.sponges["Ը"],"xֈu").I(Coral.sponges["Է"],"y։s").M("ֆyE{ձd").I(Coral.sponges["Է"],"|֊{").I(Coral.sponges["Ը"],"}֋|").N("~r}").I(Coral.sponges["Ը"],"̰֌~").e()
-};Coral.sponges["֎"]=function(
-) {
+this.C("rօ").L("ֆCst").M("ևtuvձc").N("wDv").I(Coral.sponges["Է"],"xֈu").I(Coral.sponges["Է"],"y։x").I(Coral.sponges["Է"],"z֊s").M("ֆzE|ձd").I(Coral.sponges["Է"],"}֋|").I(Coral.sponges["Ը"],"~֌}").N("̰r~").I(Coral.sponges["Ը"],"̱֍̰").e()
+};Coral.sponges["֏"]=function() {
 // Async pre-init element: demos/demo_001
 this.c("CE").h("E").k(2,0,0,2).b().B("cրdց").g("փքւr")
-};Coral.sponges["֏"]=["title"];Coral.sponges["֐"]=function(
-) {
+};Coral.sponges["֐"]=["title"];Coral.sponges["֑"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_001__main/main__content__demo_001
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["֑"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["֒"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_001__main/main__content__demo_001
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["֎"],"c֍CsF").g("փc")
-};Coral.sponges["֒"]="<p>Clicking the button increments the counter.</p>";Coral.sponges["֓"]="<p>Even numbers will appear in <span class=\"text-primary\">blue</span>.</p>";Coral.sponges["֔"]="<p>Odd numbers will appear in <span class=\"text-danger\">red</span>.</p>";Coral.sponges["֕"]="span";Coral.sponges["֖"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["֏"],"c֎CsF").g("փc")
+};Coral.sponges["֓"]="<p>Even numbers will appear in <span class=\"text-primary\">blue</span>.</p>";Coral.sponges["֔"]="<p>Odd numbers will appear in <span class=\"text-danger\">red</span>.</p>";Coral.sponges["֕"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_002.js\" target=\"_blank\">app/elements/demos/demo_002.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_002.hjs\" target=\"_blank\">app/views/demos/demo_002.hjs</a></li> </ul> </div>";Coral.sponges["֖"]="span";Coral.sponges["֗"]=function() {
 // Sync init element: demos/demo_002
 this.C("rօ").H(function (counterValue) {
       return counterValue % 2 === 0;
-    },"sr").H(function anonymous(isEven
-) {
+    },"sr").H(function anonymous(isEven) {
 return  isEven ? 'text-primary' : 'text-danger' 
-},"ts").H(function anonymous(isEven
-) {
+},"ts").H(function anonymous(isEven) {
 return isEven ? '(even)' : '(odd)'
-},"us").L("ֆCvw").M("ևwxyձc").N("zDy").I(Coral.sponges["Է"],"{֒x").I(Coral.sponges["Է"],"|֓{").I(Coral.sponges["Է"],"}֔|").I(Coral.sponges["Է"],"~։v").M("ֆ~E̱ձd").I(Coral.sponges["Է"],"̲֊̱").I(Coral.sponges["Ը"],"̳֋̲").M("̴̵̳֕ձt").N("̶r̵").I(Coral.sponges["Ը"],"̷֌̴").N("̸u̷").I(Coral.sponges["Ը"],"̹֌̸").e()
-};Coral.sponges["֗"]=function(
-) {
+},"us").L("ֆCvw").M("ևwxyձc").N("zDy").I(Coral.sponges["Է"],"{ֈx").I(Coral.sponges["Է"],"|֓{").I(Coral.sponges["Է"],"}֔|").I(Coral.sponges["Է"],"~֕}").I(Coral.sponges["Է"],"̰֊v").M("ֆ̰E̲ձd").I(Coral.sponges["Է"],"̳֋̲").I(Coral.sponges["Ը"],"̴֌̳").M("̴̵̶֖ձt").N("̷r̶").I(Coral.sponges["Ը"],"̸֍̵").N("̹u̸").I(Coral.sponges["Ը"],"̺֍̹").e()
+};Coral.sponges["֘"]=function() {
 // Async pre-init element: demos/demo_002
 this.c("CE").h("E").k(2,0,0,2).b().B("cրdց").g("փքւr")
-};Coral.sponges["֘"]=function(
-) {
+};Coral.sponges["֙"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_002__main/main__content__demo_002
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["֙"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["֚"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_002__main/main__content__demo_002
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["֗"],"c֖CsF").g("փc")
-};Coral.sponges["֚"]=" You haven't clicked the button at all. ";Coral.sponges["֛"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["֘"],"c֗CsF").g("փc")
+};Coral.sponges["֛"]=" You haven't clicked the button at all. ";Coral.sponges["֜"]=function() {
 // Sync init element: _inner_view_scope$3
-this.I(Coral.sponges["Ը"],"D֚C").e()
-};Coral.sponges["֜"]=function(
-) {
+this.I(Coral.sponges["Ը"],"D֛C").e()
+};Coral.sponges["֝"]=function() {
 // Async pre-init element: _inner_view_scope$3
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["֝"]=" You have clicked the +1 button once. ";Coral.sponges["֞"]=function(
-) {
+};Coral.sponges["֞"]=" You have clicked the +1 button once. ";Coral.sponges["֟"]=function() {
 // Sync init element: _inner_view_scope$4
-this.I(Coral.sponges["Ը"],"D֝C").e()
-};Coral.sponges["֟"]=function(
-) {
+this.I(Coral.sponges["Ը"],"D֞C").e()
+};Coral.sponges["֠"]=function() {
 // Async pre-init element: _inner_view_scope$4
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["֠"]=" You have clicked the +1 button twice. ";Coral.sponges["֡"]=function(
-) {
+};Coral.sponges["֡"]=" You have clicked the +1 button twice. ";Coral.sponges["֢"]=function() {
 // Sync init element: _inner_view_scope$5
-this.I(Coral.sponges["Ը"],"D֠C").e()
-};Coral.sponges["֢"]=function(
-) {
+this.I(Coral.sponges["Ը"],"D֡C").e()
+};Coral.sponges["֣"]=function() {
 // Async pre-init element: _inner_view_scope$5
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["֣"]=" You have clicked the +1 button three times. ";Coral.sponges["֤"]=function(
-) {
+};Coral.sponges["֤"]=" You have clicked the +1 button three times. ";Coral.sponges["֥"]=function() {
 // Sync init element: _inner_view_scope$7
-this.I(Coral.sponges["Ը"],"D֣C").e()
-};Coral.sponges["֥"]=function(
-) {
+this.I(Coral.sponges["Ը"],"D֤C").e()
+};Coral.sponges["֦"]=function() {
 // Async pre-init element: _inner_view_scope$7
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["֦"]=" You have clicked the +1 button more than three times! ";Coral.sponges["֧"]=function(
-) {
+};Coral.sponges["֧"]=" You have clicked the +1 button more than three times! ";Coral.sponges["֨"]=function() {
 // Sync init element: _inner_view_scope$8
-this.I(Coral.sponges["Ը"],"D֦C").e()
-};Coral.sponges["֨"]=function(
-) {
+this.I(Coral.sponges["Ը"],"D֧C").e()
+};Coral.sponges["֩"]=function() {
 // Async pre-init element: _inner_view_scope$8
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["֩"]="mt-3";Coral.sponges["֪"]="250";Coral.sponges["֫"]="rounded";Coral.sponges["֬"]="../../assets/images/doodles/blue_tang.png";Coral.sponges["֭"]="drawing of a blue tang";Coral.sponges["֮"]="width";Coral.sponges["֯"]="height";Coral.sponges["ְ"]=function(
-) {
+};Coral.sponges["֪"]="mt-3";Coral.sponges["֫"]="250";Coral.sponges["֬"]="rounded";Coral.sponges["֭"]="../../assets/images/doodles/blue_tang.png";Coral.sponges["֮"]="drawing of a blue tang";Coral.sponges["֯"]="width";Coral.sponges["ְ"]="height";Coral.sponges["ֱ"]=function() {
 // Sync init element: _inner_view_scope$9
-this.M("ֆCDsձc").M("կstu֮d֯dձeհfղg").e()
-};Coral.sponges["ֱ"]=function(
-) {
+this.M("ֆCDsձc").M("կstu֯dְdձeհfղg").e()
+};Coral.sponges["ֲ"]=function() {
 // Async pre-init element: _inner_view_scope$9
-this.c("CD").h("D").k(5,0,0,1).b().B("c֩d֪e֫f֬g֭")
-};Coral.sponges["ֲ"]="display: inline-block; width: 100px;";Coral.sponges["ֳ"]="mt-2";Coral.sponges["ִ"]="number";Coral.sponges["ֵ"]="0";Coral.sponges["ֶ"]="255";Coral.sponges["ַ"]="red-slider";Coral.sponges["ָ"]="range";Coral.sponges["ֹ"]="cursor-pointer";Coral.sponges["ֺ"]="green-slider";Coral.sponges["ֻ"]="blue-slider";Coral.sponges["ּ"]="mt-4 ml-2";Coral.sponges["ֽ"]="background-color: rgb(";Coral.sponges["־"]=", ";Coral.sponges["ֿ"]="); height: 200px; width: 400px; border-radius: 10px;";Coral.sponges["׀"]=73;Coral.sponges["ׁ"]=146;Coral.sponges["ׂ"]=245;Coral.sponges["׃"]="<p>Adjust the <strong>R</strong>ed, <strong>G</strong>reen, and <strong>B</strong>lue values to change the colour of the box.</p>";Coral.sponges["ׄ"]="style";Coral.sponges["ׅ"]="R: ";Coral.sponges["׆"]="input";Coral.sponges["ׇ"]="type";Coral.sponges["׈"]="min";Coral.sponges["׉"]="max";Coral.sponges["׊"]="value";Coral.sponges["׋"]="id";Coral.sponges["׌"]="G: ";Coral.sponges["׍"]="B: ";Coral.sponges["׎"]="rgb(";Coral.sponges["׏"]=")";Coral.sponges["א"]=function(
-) {
+this.c("CD").h("D").k(5,0,0,1).b().B("c֪d֫e֬f֭g֮")
+};Coral.sponges["ֳ"]="display: inline-block; width: 100px;";Coral.sponges["ִ"]="mt-2";Coral.sponges["ֵ"]="number";Coral.sponges["ֶ"]="0";Coral.sponges["ַ"]="255";Coral.sponges["ָ"]="red-slider";Coral.sponges["ֹ"]="range";Coral.sponges["ֺ"]="cursor-pointer";Coral.sponges["ֻ"]="green-slider";Coral.sponges["ּ"]="blue-slider";Coral.sponges["ֽ"]="mt-4 ml-2";Coral.sponges["־"]="background-color: rgb(";Coral.sponges["ֿ"]=", ";Coral.sponges["׀"]="); height: 200px; width: 400px; border-radius: 10px;";Coral.sponges["ׁ"]=73;Coral.sponges["ׂ"]=146;Coral.sponges["׃"]=245;Coral.sponges["ׄ"]="<p>Adjust the <strong>R</strong>ed, <strong>G</strong>reen, and <strong>B</strong>lue values to change the colour of the box.</p>";Coral.sponges["ׅ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_004.js\" target=\"_blank\">app/elements/demos/demo_004.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_004.hjs\" target=\"_blank\">app/views/demos/demo_004.hjs</a></li> </ul> </div>";Coral.sponges["׆"]="style";Coral.sponges["ׇ"]="R: ";Coral.sponges["׈"]="input";Coral.sponges["׉"]="type";Coral.sponges["׊"]="min";Coral.sponges["׋"]="max";Coral.sponges["׌"]="value";Coral.sponges["׍"]="id";Coral.sponges["׎"]="G: ";Coral.sponges["׏"]="B: ";Coral.sponges["א"]="rgb(";Coral.sponges["ב"]=")";Coral.sponges["ג"]=function() {
 // Sync init element: demos/demo_004
-this.C("r׀").C("sׁ").C("tׂ").L("ֆCuv").M("ևvwxձd").N("yDx").I(Coral.sponges["Է"],"z׃w").I(Coral.sponges["Է"],"{։u").M("ֆ{E}ձe").M("ֆ}~̰ձf").M("ֆ̰̱̲ׄc").I(Coral.sponges["Ը"],"̳ׅ̲").M("׆̴̵ׇ̳g׈h׉i׊r").M("׆̶̷̱׋jׇk׈h׉i׊rձl").M("ֆ~̸̹ձf").M("ֆ̹̺̻ׄc").I(Coral.sponges["Ը"],"̼׌̻").M("׆ׇ̼̽̾g׈h׉i׊s").M("׆̺̿̀׋mׇk׈h׉i׊sձl").M("ֆ̸́͂ձf").M("ֆ͂̓̈́ׄc").I(Coral.sponges["Ը"],"ͅ׍̈́").M("׆ׇ͇͆ͅg׈h׉i׊t").M("׆͈͉̓׋nׇk׈h׉i׊tձl").M("ֆ́͊͋ձo").I(Coral.sponges["Ը"],"͌׎͋").N("͍r͌").I(Coral.sponges["Ը"],"͎־͍").N("͏s͎").I(Coral.sponges["Ը"],"͐־͏").N("͑t͐").I(Coral.sponges["Ը"],"͒׏͑").M("ֆ͓͔͊ձfׄprqsqtİ").e()
-};Coral.sponges["ב"]=function(
-) {
+this.C("rׁ").C("sׂ").C("t׃").L("ֆCuv").M("ևvwxձd").N("yDx").I(Coral.sponges["Է"],"zׄw").I(Coral.sponges["Է"],"{ׅz").I(Coral.sponges["Է"],"|֊u").M("ֆ|E~ձe").M("ֆ~̰̱ձf").M("ֆ̱̲̳׆c").I(Coral.sponges["Ը"],"̴ׇ̳").M("׈̴̵̶׉g׊h׋i׌r").M("׈̷̸̲׍j׉k׊h׋i׌rձl").M("ֆ̰̹̺ձf").M("ֆ̺̻̼׆c").I(Coral.sponges["Ը"],"̽׎̼").M("׈̽̾̿׉g׊h׋i׌s").M("׈̻̀́׍m׉k׊h׋i׌sձl").M("ֆ̹͂̓ձf").M("ֆ̓̈́ͅ׆c").I(Coral.sponges["Ը"],"͆׏ͅ").M("׈͇͈͆׉g׊h׋i׌t").M("׈͉̈́͊׍n׉k׊h׋i׌tձl").M("ֆ͂͋͌ձo").I(Coral.sponges["Ը"],"͍א͌").N("͎r͍").I(Coral.sponges["Ը"],"͏ֿ͎").N("͐s͏").I(Coral.sponges["Ը"],"ֿ͑͐").N("͒t͑").I(Coral.sponges["Ը"],"͓ב͒").M("ֆ͔͕͋ձf׆prqsqtİ").e()
+};Coral.sponges["ד"]=function() {
 // Async pre-init element: demos/demo_004
-this.c("CE").h("E").k(16,0,0,2).b().B("cֲdրeցfֳgִhֵiֶjַkָlֹmֺnֻoּpֽq־İֿ")
-};Coral.sponges["ג"]=function(
-) {
+this.c("CE").h("E").k(16,0,0,2).b().B("cֳdրeցfִgֵhֶiַjָkֹlֺmֻnּoֽp־qֿİ׀")
+};Coral.sponges["ה"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_004__main/main__content__demo_004
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ד"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["ו"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_004__main/main__content__demo_004
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ב"],"cאCsF")
-};Coral.sponges["ה"]="mb-4";Coral.sponges["ו"]="width: 350px;";Coral.sponges["ז"]="input-group mb-3";Coral.sponges["ח"]="form-control";Coral.sponges["ט"]="alert alert-info h4";Coral.sponges["י"]=function (isInputBlank, iscurrentlyCounting, countDownStartingValue, countDownCurrentValue) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ד"],"cגCsF")
+};Coral.sponges["ז"]="mb-4";Coral.sponges["ח"]="width: 350px;";Coral.sponges["ט"]="input-group mb-3";Coral.sponges["י"]="form-control";Coral.sponges["ך"]="alert alert-info h4";Coral.sponges["כ"]=function (isInputBlank, iscurrentlyCounting, countDownStartingValue, countDownCurrentValue) {
 
       var countDown = setInterval(doCountDown, 1000);
 
@@ -5287,66 +5255,53 @@ this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ב"],"cאCsF")
         clearInterval(countDown);
       }
 
-    };Coral.sponges["ך"]=function (countDownStartingValue, countDownCurrentValue) {
+    };Coral.sponges["ל"]=function (countDownStartingValue, countDownCurrentValue) {
       var _countDownStartingValue = countDownStartingValue.get();
       countDownStartingValue.set(_countDownStartingValue, true); // This .set() call uses the force trigger change flag
-    };Coral.sponges["כ"]=false;Coral.sponges["ל"]=true;Coral.sponges["ם"]=5;Coral.sponges["מ"]="<p>Changing the starting value or clicking the Restart button restarts the countdown.</p>";Coral.sponges["ן"]="<div class=\"input-group-prepend\"> <span class=\"input-group-text\">Counting down from</span> </div>";Coral.sponges["נ"]="<div class=\"input-group-append\"> <button class=\"btn btn-danger\" type=\"button\">Restart</button> </div>";Coral.sponges["ס"]="strong";Coral.sponges["ע"]=function(
-) {
+    };Coral.sponges["ם"]=false;Coral.sponges["מ"]=true;Coral.sponges["ן"]=5;Coral.sponges["נ"]="<p>Changing the starting value or clicking the Restart button restarts the countdown.</p>";Coral.sponges["ס"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_009.js\" target=\"_blank\">app/elements/demos/demo_009.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_009.hjs\" target=\"_blank\">app/views/demos/demo_009.hjs</a></li> </ul> </div>";Coral.sponges["ע"]="<div class=\"input-group-prepend\"> <span class=\"input-group-text\">Counting down from</span> </div>";Coral.sponges["ף"]="<div class=\"input-group-append\"> <button class=\"btn btn-danger\" type=\"button\">Restart</button> </div>";Coral.sponges["פ"]="strong";Coral.sponges["ץ"]=function() {
 // Sync init element: demos/demo_009
-this.C("rכ").C("sל").C("tם").C("uם").H(function (countDownCurrentValue) {
+this.C("rם").C("sמ").C("tן").C("uן").H(function (countDownCurrentValue) {
       if (countDownCurrentValue <= 0) return 'Timer expired.';
       var needsPlural = countDownCurrentValue !== 1;
       var seconds = 'second' + (needsPlural ? 's' : '');
       return countDownCurrentValue + ' ' + seconds + ' remaining.';
-    },"vu").H(function anonymous(isInputBlank,countdownMessage
-) {
+    },"vu").H(function anonymous(isInputBlank,countdownMessage) {
 return isInputBlank ? 'Enter a starting value.' : countdownMessage
-},"wrv").L("ֆCxy").M("ևyz{ձc").N("|D{").I(Coral.sponges["Է"],"}מz").I(Coral.sponges["Է"],"~։x").M("ֆ~E̱ձd").M("ֆ̱̲̳ׄe").M("ֆ̴̵̳ձf").I(Coral.sponges["Է"],"̶ן̵").M("׆̶̷̸ׇgձh׊t").I(Coral.sponges["Է"],"̹נ̷").M("ֆ̴̺̻ձi").L("ס̻̼̽").N("̾w̽").d("").e().Ņ(Coral.sponges["י"],"rstu")
-};Coral.sponges["ף"]=function(
-) {
+},"wrv").L("ֆCxy").M("ևyz{ձc").N("|D{").I(Coral.sponges["Է"],"}נz").I(Coral.sponges["Է"],"~ס}").I(Coral.sponges["Է"],"̰֊x").M("ֆ̰E̲ձd").M("ֆ̴̲̳׆e").M("ֆ̴̵̶ձf").I(Coral.sponges["Է"],"̷ע̶").M("׈̷̸̹׉gձh׌t").I(Coral.sponges["Է"],"̺ף̸").M("ֆ̵̻̼ձi").L("פ̼̽̾").N("̿w̾").d("").e().Ņ(Coral.sponges["כ"],"rstu")
+};Coral.sponges["צ"]=function() {
 // Async pre-init element: demos/demo_009
-this.c("CE").h("E").k(7,0,0,2).b().B("cրdהeוfזgִhחiט").g("փքךtu")
-};Coral.sponges["פ"]=function(
-) {
+this.c("CE").h("E").k(7,0,0,2).b().B("cրdזeחfטgֵhיiך").g("փքלtu")
+};Coral.sponges["ק"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_009__main/main__content__demo_009
-this.Y("rDE").X("sr֏").P("c").d("c").e()
-};Coral.sponges["ץ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").d("c").e()
+};Coral.sponges["ר"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_009__main/main__content__demo_009
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ף"],"cעCsF").g("փc")
-};Coral.sponges["צ"]="<div> <p>Welcome to the <a href=\"https://github.com/lockerdome/coral.js-tutorials/tree/master/demos\" target=\"_blank\">demos</a> app of <a href=\"https://github.com/lockerdome/coral.js-tutorials\" target=\"_blank\">coral.js-tutorials</a>. This app was built with <a href=\"https://github.com/lockerdome/coral\">Coral.js</a>.</p> <p>Here you will find a variety of examples that showcase the many different features of the Coral.js framework.</p> </div>";Coral.sponges["ק"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["צ"],"cץCsF").g("փc")
+};Coral.sponges["ש"]="<div> <p>Welcome to the <a href=\"https://github.com/lockerdome/coral.js-tutorials/tree/master/demos\" target=\"_blank\">demos</a> app of <a href=\"https://github.com/lockerdome/coral.js-tutorials\" target=\"_blank\">coral.js-tutorials</a>. This app was built with <a href=\"https://github.com/lockerdome/coral\">Coral.js</a>.</p> <p>Here you will find a variety of examples that showcase the many different features of the Coral.js framework.</p> </div>";Coral.sponges["ת"]=function() {
 // Sync init element: demos/demo_intro
-this.M("ևCrsձc").N("tDs").I(Coral.sponges["Է"],"Eצr").e()
-};Coral.sponges["ר"]=function(
-) {
+this.M("ևCrsձc").N("tDs").I(Coral.sponges["Է"],"Eשr").e()
+};Coral.sponges["׫"]=function() {
 // Async pre-init element: demos/demo_intro
 this.c("CE").h("E").k(1,0,0,2).b().B("cր")
-};Coral.sponges["ש"]=function(
-) {
+};Coral.sponges["׬"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_intro__main/main__content__demo_intro
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ת"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["׭"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_intro__main/main__content__demo_intro
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ר"],"cקCsF")
-};Coral.sponges["׫"]="<p>Additional description for the demo.</p>";Coral.sponges["׬"]="<div class=\"mb-4\"> </div>";Coral.sponges["׭"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["׫"],"cתCsF")
+};Coral.sponges["׮"]="<p>Additional description for the demo.</p>";Coral.sponges["ׯ"]="<div class=\"mb-4\"> </div>";Coral.sponges["װ"]=function() {
 // Sync init element: demos/demo_template
-this.L("ֆCrs").M("ևstuձc").N("vDu").I(Coral.sponges["Է"],"w׫t").I(Coral.sponges["Է"],"x։r").I(Coral.sponges["Է"],"E׬x").e()
-};Coral.sponges["׮"]=function(
-) {
+this.L("ֆCrs").M("ևstuձc").N("vDu").I(Coral.sponges["Է"],"w׮t").I(Coral.sponges["Է"],"x֊r").I(Coral.sponges["Է"],"Eׯx").e()
+};Coral.sponges["ױ"]=function() {
 // Async pre-init element: demos/demo_template
 this.c("CE").h("E").k(1,0,0,2).b().B("cր")
-};Coral.sponges["ׯ"]="ml-4";Coral.sponges["װ"]="small";Coral.sponges["ױ"]=function(
-) {
+};Coral.sponges["ײ"]="ml-4";Coral.sponges["׳"]="small";Coral.sponges["״"]=function() {
 // Sync init element: _inner_view_scope$10
-this.M("ֆCFsձc").M("װstuձE").N("vDu").e()
-};Coral.sponges["ײ"]=function(
-) {
+this.M("ֆCFsձc").M("׳stuձE").N("vDu").e()
+};Coral.sponges["׵"]=function() {
 // Async pre-init element: _inner_view_scope$10
-this.c("CF").h("F").k(1,0,0,3).b().B("cׯ")
-};Coral.sponges["׳"]="width: 320px;";Coral.sponges["״"]="text";Coral.sponges["׵"]="type something here...";Coral.sponges["׶"]=function (newEntry, seaCreatureList) {
+this.c("CF").h("F").k(1,0,0,3).b().B("cײ")
+};Coral.sponges["׶"]="width: 320px;";Coral.sponges["׷"]="text";Coral.sponges["׸"]="type something here...";Coral.sponges["׹"]=function (newEntry, seaCreatureList) {
             var _newEntry = newEntry.get();
             if (_newEntry) {
               var clonedSeaCreatureList = seaCreatureList.get().slice();
@@ -5354,216 +5309,169 @@ this.c("CF").h("F").k(1,0,0,3).b().B("cׯ")
               newEntry.set('');
               seaCreatureList.set(clonedSeaCreatureList);
             }
-          };Coral.sponges["׷"]="placeholder";Coral.sponges["׸"]="<div class=\"input-group-append\"><button class=\"btn bg-coral text-light\" type=\"button\" id=\"button-addon1\">+</button></div>";Coral.sponges["׹"]=function(
-) {
+          };Coral.sponges["׺"]="placeholder";Coral.sponges["׻"]="<div class=\"input-group-append\"><button class=\"btn bg-coral text-light\" type=\"button\" id=\"button-addon1\">+</button></div>";Coral.sponges["׼"]=function() {
 // Sync init element: demos/demo_006.js->    - inline element at elements.seaCreatureAdder.type
-this.M("ֆCFsձcׄd").M("׆stuׇeձf׊D׷g").I(Coral.sponges["Է"],"v׸t").e()
-};Coral.sponges["׺"]=function(
-) {
+this.M("ֆCFsձc׆d").M("׈stu׉eձf׌D׺g").I(Coral.sponges["Է"],"v׻t").e()
+};Coral.sponges["׽"]=function() {
 // Async pre-init element: demos/demo_006.js->    - inline element at elements.seaCreatureAdder.type
-this.c("CF").h("F").k(5,0,0,3).b().B("cזd׳e״fחg׵").g("փք׶DE")
-};Coral.sponges["׻"]="#b2b2b2";Coral.sponges["׼"]="container rounded p-2 mt-3 mb-3";Coral.sponges["׽"]="background-color: ";Coral.sponges["׾"]=function (innerInnerClickCount) {
+this.c("CF").h("F").k(5,0,0,3).b().B("cטd׶e׷fיg׸").g("փք׹DE")
+};Coral.sponges["׾"]="#b2b2b2";Coral.sponges["׿"]="container rounded p-2 mt-3 mb-3";Coral.sponges["؀"]="background-color: ";Coral.sponges["؁"]=function (innerInnerClickCount) {
                       innerInnerClickCount.set(innerInnerClickCount.get() + 1);
-                    };Coral.sponges["׿"]="<span class=\"font-monospace\">innerInnerClickCount:</span>";Coral.sponges["؀"]=function(
-) {
+                    };Coral.sponges["؂"]="<span class=\"font-monospace\">innerInnerClickCount:</span>";Coral.sponges["؃"]=function() {
 // Sync init element: demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type->    - inline element at dynamicElementLists.innerElements.item.type
 this.C("rօ").I(function (parentElementName, elementName) {
                       return parentElementName + elementName;
-                    },"sDE").M("ֆCFuձdׄec").L("סuvw").N("xsw").L("նvyz").I(Coral.sponges["Է"],"{׿z").L("ס{|}").N("~r}").e()
-};Coral.sponges["؁"]=function(
-) {
+                    },"sDE").M("ֆCFuձd׆ec").L("פuvw").N("xsw").L("նvyz").I(Coral.sponges["Է"],"{؂z").L("פ{|}").N("~r}").e()
+};Coral.sponges["؄"]=function() {
 // Async pre-init element: demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type->    - inline element at dynamicElementLists.innerElements.item.type
-this.c("CF").h("F").k(3,0,0,3).b().B("c׻d׼e׽").g("փ׾r")
-};Coral.sponges["؂"]=["name"];Coral.sponges["؃"]=function(
-) {
+this.c("CF").h("F").k(3,0,0,3).b().B("c׾d׿e؀").g("փ؁r")
+};Coral.sponges["؅"]=["name"];Coral.sponges["؆"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type->    - inline element at dynamicElementLists.innerElements.item.type__demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type__innerElements__item
-this.Y("rDE").X("sr؂").P("c").e()
-};Coral.sponges["؄"]=function(
-) {
+this.Y("rDE").X("sr؅").P("c").e()
+};Coral.sponges["؇"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type->    - inline element at dynamicElementLists.innerElements.item.type__demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type__innerElements__item
-this.c("CG").h("G").k(1,0,0,4).b().R(Coral.sponges["؁"],"c؀CFsG").g("փc")
-};Coral.sponges["؅"]="#d8d8d8";Coral.sponges["؆"]=[{name:1},{name:2},{name:3}];Coral.sponges["؇"]="container rounded d-inline-block p-5 m-4";Coral.sponges["؈"]="; max-width: 350px;";Coral.sponges["؉"]=function (innerClickCount) {
+this.c("CG").h("G").k(1,0,0,4).b().R(Coral.sponges["؄"],"c؃CFsG").g("փc")
+};Coral.sponges["؈"]="#d8d8d8";Coral.sponges["؉"]=[{name:1},{name:2},{name:3}];Coral.sponges["؊"]="container rounded d-inline-block p-5 m-4";Coral.sponges["؋"]="; max-width: 350px;";Coral.sponges["،"]=function (innerClickCount) {
               innerClickCount.set(innerClickCount.get() + 1);
-            };Coral.sponges["؊"]="<span class=\"font-monospace\">innerClickCount:</span>";Coral.sponges["؋"]=function(
-) {
+            };Coral.sponges["؍"]="<span class=\"font-monospace\">innerClickCount:</span>";Coral.sponges["؎"]=function() {
 // Sync init element: demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type
-this.C("rօ").M("ֆCEtձfׄgdh").L("סtuv").L("նuwx").W("c").N("zDv").I(Coral.sponges["Է"],"{؊x").L("ס{|}").N("~r}").e()
-};Coral.sponges["،"]=function(a,b
-) {
+this.C("rօ").M("ֆCEtձf׆gdh").L("פtuv").L("նuwx").W("c").N("zDv").I(Coral.sponges["Է"],"{؍x").L("פ{|}").N("~r}").e()
+};Coral.sponges["؏"]=function(a,b) {
 return ((a&&a.name)+"")===((b&&b.name)+"")
-};Coral.sponges["؍"]=function(
-) {
+};Coral.sponges["ؐ"]=function() {
 // Async pre-init element: demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type
-this.c("CE").h("E").k(6,0,0,2).b().B("d؅e؆f؇g׽h؈").U(Coral.sponges["؄"],"c؃ewy،¡e D¢").g("փcփ؉r")
-};Coral.sponges["؎"]=function(
-) {
+this.c("CE").h("E").k(6,0,0,2).b().B("d؈e؉f؊g؀h؋").U(Coral.sponges["؇"],"c؆ewy؏¡e D¢").g("փcփ،r")
+};Coral.sponges["ؑ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type__demos/demo_007__innerElements__item
-this.Y("rDE").X("sr؂").P("c").e()
-};Coral.sponges["؏"]=function(
-) {
+this.Y("rDE").X("sr؅").P("c").e()
+};Coral.sponges["ؒ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_007.js->    - inline element at dynamicElementLists.innerElements.item.type__demos/demo_007__innerElements__item
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["؍"],"c؋CsF").g("փc")
-};Coral.sponges["ؐ"]="Element A";Coral.sponges["ؑ"]=[{name:"Element B"},{name:"Element C"}];Coral.sponges["ؒ"]=function (outerClickCount) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ؐ"],"c؎CsF").g("փc")
+};Coral.sponges["ؓ"]="Element A";Coral.sponges["ؔ"]=[{name:"Element B"},{name:"Element C"}];Coral.sponges["ؕ"]=function (outerClickCount) {
       outerClickCount.set(outerClickCount.get() + 1);
-    };Coral.sponges["ؓ"]="<p>Click around this demo area.</p>";Coral.sponges["ؔ"]="<span class=\"font-monospace\">outerClickCount:</span>";Coral.sponges["ؕ"]=function(
-) {
+    };Coral.sponges["ؖ"]="<p>Click around this demo area.</p>";Coral.sponges["ؗ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_007.js\" target=\"_blank\">app/elements/demos/demo_007.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_007.hjs\" target=\"_blank\">app/views/demos/demo_007.hjs</a></li> </ul> </div>";Coral.sponges["ؘ"]="<span class=\"font-monospace\">outerClickCount:</span>";Coral.sponges["ؙ"]=function() {
 // Sync init element: demos/demo_007
-this.C("rօ").M("ֆCEtձf").L("ֆtuv").M("ֆuwxձg").L("סxyz").L("նy{|").L("ֆ{}~").W("c").M("ևv̱̲ձh").N("̳D̲").I(Coral.sponges["Է"],"̴̱ؓ").N("̵dz").I(Coral.sponges["Է"],"̶ؔ|").L("ס̶̷̸").N("̹r̸").e()
-};Coral.sponges["ؖ"]=function(
-) {
+this.C("rօ").M("ֆCEtձf").L("ֆtuv").M("ֆuwxձg").L("פxyz").L("նy{|").L("ֆ{}~").W("c").M("ևv̱̲ձh").N("̳D̲").I(Coral.sponges["Է"],"̴̱ؖ").I(Coral.sponges["Է"],"̵̴ؗ").N("̶dz").I(Coral.sponges["Է"],"̷ؘ|").L("פ̷̸̹").N("̺r̹").e()
+};Coral.sponges["ؚ"]=function() {
 // Async pre-init element: demos/demo_007
-this.c("CE").h("E").k(6,0,0,2).b().B("dؐeؑfֹgהhր").U(Coral.sponges["؏"],"c؎e~̰،¡e ¢").g("փcփֆؒr")
-};Coral.sponges["ؗ"]=function(
-) {
+this.c("CE").h("E").k(6,0,0,2).b().B("dؓeؔfֺgזhր").U(Coral.sponges["ؒ"],"cؑe~̰؏¡e ¢").g("փcփֆؕr")
+};Coral.sponges["؛"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_007__main/main__content__demo_007
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ؘ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["؜"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_007__main/main__content__demo_007
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ؖ"],"cؕCsF").g("փc")
-};Coral.sponges["ؙ"]="btn rounded-pill btn-lg btn-block mb-3 bg-light";Coral.sponges["ؚ"]=function (emitEvent, multiplicationValue) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ؚ"],"cؙCsF").g("փc")
+};Coral.sponges["؝"]="btn rounded-pill btn-lg btn-block mb-3 bg-light";Coral.sponges["؞"]=function (emitEvent, multiplicationValue) {
                       emitEvent('multiplierWasSelected', Coral.Observable.unpack(multiplicationValue));
-                    };Coral.sponges["؛"]=function(
-) {
+                    };Coral.sponges["؟"]=function() {
 // Sync init element: demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type->    - inline element at dynamicElementLists.multiplierButtons.item.type
-this.C("rօ").I(function anonymous(multiplicationValue
-) {
+this.C("rօ").I(function anonymous(multiplicationValue) {
 return "x " + multiplicationValue
-},"sD").M("քCEuׇcձd").N("vsu").e()
-};Coral.sponges["؜"]=function(
-) {
+},"sD").M("քCEu׉cձd").N("vsu").e()
+};Coral.sponges["৿"]=function() {
 // Async pre-init element: demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type->    - inline element at dynamicElementLists.multiplierButtons.item.type
-this.c("CE").h("E").k(2,0,0,2).b().B("cքdؙ").g("փؚ¦D")
-};Coral.sponges["؝"]=["x"];Coral.sponges["؞"]=function(
-) {
+this.c("CE").h("E").k(2,0,0,2).b().B("cքd؝").g("փ؞¦D")
+};Coral.sponges["਀"]=["x"];Coral.sponges["ਁ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type->    - inline element at dynamicElementLists.multiplierButtons.item.type__demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type__multiplierButtons__item
-this.Y("rDE").X("sr؝").P("c").e()
-};Coral.sponges["؟"]=function(
-) {
+this.Y("rDE").X("sr਀").P("c").e()
+};Coral.sponges["ਂ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type->    - inline element at dynamicElementLists.multiplierButtons.item.type__demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type__multiplierButtons__item
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["؜"],"c؛CsF").g("փc")
-};Coral.sponges["৿"]=[{x:1},{x:2},{x:3},{x:4},{x:5}];Coral.sponges["਀"]="container rounded d-inline-block p-3 m-2";Coral.sponges["ਁ"]="; max-width: 200px;";Coral.sponges["ਂ"]="display-3 text-center text-light";Coral.sponges["ਃ"]="h1";Coral.sponges["਄"]=function (args, baseValue, emitEvent) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["৿"],"c؟CsF").g("փc")
+};Coral.sponges["ਃ"]=[{x:1},{x:2},{x:3},{x:4},{x:5}];Coral.sponges["਄"]="container rounded d-inline-block p-3 m-2";Coral.sponges["ਅ"]="; max-width: 200px;";Coral.sponges["ਆ"]="display-3 text-center text-light";Coral.sponges["ਇ"]="h1";Coral.sponges["ਈ"]=function (args, baseValue, emitEvent) {
               var multiplier = args[0];
               emitEvent('doMultiplication', {
                 baseValue: baseValue,
                 multiplier: Coral.Observable.unpack(multiplier)
               });
-            };Coral.sponges["ਅ"]=function(
-) {
+            };Coral.sponges["ਉ"]=function() {
 // Sync init element: demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type
-this.M("ֆCFsձeׄfEg").M("ਃstuձh").W("c").N("wDu").J(Coral.sponges["਄"],"x©D¦").e()
-};Coral.sponges["ਆ"]=function(a,b
-) {
+this.M("ֆCFsձe׆fEg").M("ਇstuձh").W("c").N("wDu").J(Coral.sponges["ਈ"],"x©D¦").e()
+};Coral.sponges["ਊ"]=function(a,b) {
 return ((a&&a.x)+"")===((b&&b.x)+"")
-};Coral.sponges["ਇ"]="multiplierWasSelected";Coral.sponges["ਈ"]=function(
-) {
+};Coral.sponges["਋"]="multiplierWasSelected";Coral.sponges["਌"]=function() {
 // Async pre-init element: demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type
-this.c("CF").h("F").k(6,0,0,3).b().B("d৿e਀f׽gਁhਂ").U(Coral.sponges["؟"],"c؞dtvਆ¡d ¢").K("ਇx").g("փc")
-};Coral.sponges["ਉ"]=["baseValue"];Coral.sponges["ਊ"]=["chartColor"];Coral.sponges["਋"]=function(
-) {
+this.c("CF").h("F").k(6,0,0,3).b().B("dਃe਄f؀gਅhਆ").U(Coral.sponges["ਂ"],"cਁdtvਊ¡d ¢").K("਋x").g("փc")
+};Coral.sponges["਍"]=["baseValue"];Coral.sponges["਎"]=["chartColor"];Coral.sponges["ਏ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type__demos/demo_008__multiplicationCharts__item
-this.Y("rDE").X("srਉ").X("trਊ").P("c").e()
-};Coral.sponges["਌"]=function(
-) {
+this.Y("rDE").X("sr਍").X("tr਎").P("c").e()
+};Coral.sponges["ਐ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_008.js->    - inline element at dynamicElementLists.multiplicationCharts.item.type__demos/demo_008__multiplicationCharts__item
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ਈ"],"cਅCstF").g("փc")
-};Coral.sponges["਍"]=[{baseValue:3,chartColor:"#ff3b59"},{baseValue:4,chartColor:"#3b59ff"},{baseValue:5,chartColor:"#ffb03b"}];Coral.sponges["਎"]="display-3";Coral.sponges["ਏ"]=null;Coral.sponges["ਐ"]="<p>Put your math skills to the test. Click any multiplication on the charts to see the product.</p>";Coral.sponges["਑"]=" x ";Coral.sponges["਒"]=" = ";Coral.sponges["ਓ"]=function (args, selectedBaseValue, selectedMultiplier, product) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["਌"],"cਉCstF").g("փc")
+};Coral.sponges["਑"]=[{baseValue:3,chartColor:"#ff3b59"},{baseValue:4,chartColor:"#3b59ff"},{baseValue:5,chartColor:"#ffb03b"}];Coral.sponges["਒"]="display-3";Coral.sponges["ਓ"]=null;Coral.sponges["ਔ"]="<p>Put your math skills to the test. Click any multiplication on the charts to see the product.</p>";Coral.sponges["ਕ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_008.js\" target=\"_blank\">app/elements/demos/demo_008.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_008.hjs\" target=\"_blank\">app/views/demos/demo_008.hjs</a></li> </ul> </div>";Coral.sponges["ਖ"]=" x ";Coral.sponges["ਗ"]=" = ";Coral.sponges["ਘ"]=function (args, selectedBaseValue, selectedMultiplier, product) {
       var data = args[0];
       _baseValue = Coral.Observable.unpack(data.baseValue);
       _multiplier = Coral.Observable.unpack(data.multiplier);
       selectedBaseValue.set(_baseValue);
       selectedMultiplier.set(_multiplier);
       product.set(_baseValue * _multiplier);
-    };Coral.sponges["ਔ"]=function () {
+    };Coral.sponges["ਙ"]=function () {
       throw new Error("This will never get called because the event stops propagating upward after it is caught");
-    };Coral.sponges["ਕ"]=function(
-) {
+    };Coral.sponges["ਚ"]=function() {
 // Sync init element: demos/demo_008
-this.C("rਏ").C("sਏ").C("tਏ").L("ֆCuv").I(Coral.sponges["Է"],"w։u").M("ֆwEyձe").M("ਃyz{ձf").L("ֆz|}").W("c").H(function anonymous(selectedBaseValue
-) {
+this.C("rਓ").C("sਓ").C("tਓ").L("ֆCuv").I(Coral.sponges["Է"],"w֊u").M("ֆwEyձe").M("ਇyz{ձf").L("ֆz|}").W("c").H(function anonymous(selectedBaseValue) {
 return selectedBaseValue || '?'
-},"̰r").H(function anonymous(selectedMultiplier
-) {
+},"̰r").H(function anonymous(selectedMultiplier) {
 return selectedMultiplier || '?'
-},"̱s").H(function anonymous(product
-) {
+},"̱s").H(function anonymous(product) {
 return product || '?'
-},"̲t").M("ևv̴̳ձg").N("̵D̴").I(Coral.sponges["Է"],"̶ਐ̳").N("̷̰{").I(Coral.sponges["Ը"],"̸਑̷").N("̸̹̱").I(Coral.sponges["Ը"],"̺਒̹").N("̻̲̺").J(Coral.sponges["ਓ"],"̼©rst").J(Coral.sponges["ਔ"],"̽").e()
-};Coral.sponges["ਖ"]=function(a,b
-) {
+},"̲t").M("ևv̴̳ձg").N("̵D̴").I(Coral.sponges["Է"],"̶ਔ̳").I(Coral.sponges["Է"],"̷ਕ̶").N("̸̰{").I(Coral.sponges["Ը"],"̹ਖ̸").N("̺̱̹").I(Coral.sponges["Ը"],"̻ਗ̺").N("̼̲̻").J(Coral.sponges["ਘ"],"̽©rst").J(Coral.sponges["ਙ"],"̾").e()
+};Coral.sponges["ਛ"]=function(a,b) {
 return ((a&&a.baseValue)+"")===((b&&b.baseValue)+"")
-};Coral.sponges["ਗ"]="doMultiplication";Coral.sponges["ਘ"]=function(
-) {
+};Coral.sponges["ਜ"]="doMultiplication";Coral.sponges["ਝ"]=function() {
 // Async pre-init element: demos/demo_008
-this.c("CE").h("E").k(5,0,0,2).b().B("d਍eהf਎gր").U(Coral.sponges["਌"],"c਋d}~ਖ¡d ¢").K("ਗ̼ਇ̽").g("փc")
-};Coral.sponges["ਙ"]=function(
-) {
+this.c("CE").h("E").k(5,0,0,2).b().B("d਑eזf਒gր").U(Coral.sponges["ਐ"],"cਏd}~ਛ¡d ¢").K("ਜ̽਋̾").g("փc")
+};Coral.sponges["ਞ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_008__main/main__content__demo_008
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ਚ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["ਟ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_008__main/main__content__demo_008
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ਘ"],"cਕCsF").g("փc")
-};Coral.sponges["ਛ"]="rounded p-4 mt-2";Coral.sponges["ਜ"]="background-color: #9372B3;";Coral.sponges["ਝ"]="<div><strong>Level 3</strong></div>";Coral.sponges["ਞ"]="regularNumber: ";Coral.sponges["ਟ"]="magicNumber: ";Coral.sponges["ਠ"]="inputNumber: ";Coral.sponges["ਡ"]=", inputNumberPlusFive: ";Coral.sponges["ਢ"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ਝ"],"cਚCsF").g("փc")
+};Coral.sponges["ਠ"]="rounded p-4 mt-2";Coral.sponges["ਡ"]="background-color: #9372B3;";Coral.sponges["ਢ"]="<div><strong>Level 3</strong></div>";Coral.sponges["ਣ"]="regularNumber: ";Coral.sponges["ਤ"]="magicNumber: ";Coral.sponges["ਥ"]="inputNumber: ";Coral.sponges["ਦ"]=", inputNumberPlusFive: ";Coral.sponges["ਧ"]=function() {
 // Sync init element: demos/demo_010.js->    - inline element at elements.innerElement.type->    - inline element at elements.innerElement.type
-this.M("ֆCHsձcׄd").I(Coral.sponges["Է"],"tਝs").L("ֆtuv").I(Coral.sponges["Ը"],"wਞv").N("xDw").L("ֆuyz").I(Coral.sponges["Ը"],"{ਟz").N("|E{").L("ֆy}~").I(Coral.sponges["Ը"],"̰ਠ~").N("̱F̰").I(Coral.sponges["Ը"],"̲ਡ̱").N("̳G̲").e()
-};Coral.sponges["ਣ"]=function(
-) {
+this.M("ֆCHsձc׆d").I(Coral.sponges["Է"],"tਢs").L("ֆtuv").I(Coral.sponges["Ը"],"wਣv").N("xDw").L("ֆuyz").I(Coral.sponges["Ը"],"{ਤz").N("|E{").L("ֆy}~").I(Coral.sponges["Ը"],"̰ਥ~").N("̱F̰").I(Coral.sponges["Ը"],"̲ਦ̱").N("̳G̲").e()
+};Coral.sponges["ਨ"]=function() {
 // Async pre-init element: demos/demo_010.js->    - inline element at elements.innerElement.type->    - inline element at elements.innerElement.type
-this.c("CH").h("H").k(2,0,0,5).b().B("cਛdਜ")
-};Coral.sponges["ਤ"]=8;Coral.sponges["ਥ"]="background-color: #C1AED3;";Coral.sponges["ਦ"]="<div><strong>Level 2</strong></div>";Coral.sponges["ਧ"]=function(
-) {
+this.c("CH").h("H").k(2,0,0,5).b().B("cਠdਡ")
+};Coral.sponges["਩"]=8;Coral.sponges["ਪ"]="background-color: #C1AED3;";Coral.sponges["ਫ"]="<div><strong>Level 2</strong></div>";Coral.sponges["ਬ"]=function() {
 // Sync init element: demos/demo_010.js->    - inline element at elements.innerElement.type
-this.M("ֆCGsձeׄf").I(Coral.sponges["Է"],"tਦs").L("ֆtuv").L("ֆuwx").P("c").I(Coral.sponges["Ը"],"zਞv").N("{Dz").I(Coral.sponges["Ը"],"|ਟx").N("}d|").e()
-};Coral.sponges["ਨ"]=function(
-) {
+this.M("ֆCGsձe׆f").I(Coral.sponges["Է"],"tਫs").L("ֆtuv").L("ֆuwx").P("c").I(Coral.sponges["Ը"],"zਣv").N("{Dz").I(Coral.sponges["Ը"],"|ਤx").N("}d|").e()
+};Coral.sponges["ਭ"]=function() {
 // Async pre-init element: demos/demo_010.js->    - inline element at elements.innerElement.type
-this.c("CG").h("G").k(4,0,0,4).b().B("dਤeਛfਥ").R(Coral.sponges["ਣ"],"cਢwDdEFy")
-};Coral.sponges["਩"]=10;Coral.sponges["ਪ"]=3;Coral.sponges["ਫ"]="width: 500px;";Coral.sponges["ਬ"]="mb-3";Coral.sponges["ਭ"]="form-control mb-2";Coral.sponges["ਮ"]="Enter a number";Coral.sponges["ਯ"]="<p>The Environment makes it easy for descendant elements and models to have access to values.</p>";Coral.sponges["ਰ"]="<strong>Your Input:</strong>";Coral.sponges["਱"]="<div><strong>Level 1</strong></div>";Coral.sponges["ਲ"]=function(
-) {
+this.c("CG").h("G").k(4,0,0,4).b().B("d਩eਠfਪ").R(Coral.sponges["ਨ"],"cਧwDdEFy")
+};Coral.sponges["ਮ"]=10;Coral.sponges["ਯ"]=3;Coral.sponges["ਰ"]="width: 500px;";Coral.sponges["਱"]="mb-3";Coral.sponges["ਲ"]="form-control mb-2";Coral.sponges["ਲ਼"]="Enter a number";Coral.sponges["਴"]="<p>The Environment makes it easy for descendant elements and models to have access to values.</p>";Coral.sponges["ਵ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_010.js\" target=\"_blank\">app/elements/demos/demo_010.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_010.hjs\" target=\"_blank\">app/views/demos/demo_010.hjs</a></li> </ul> </div>";Coral.sponges["ਸ਼"]="<strong>Your Input:</strong>";Coral.sponges["਷"]="<div><strong>Level 1</strong></div>";Coral.sponges["ਸ"]=function() {
 // Sync init element: demos/demo_010
 this.C("rօ").H(function (inputNumber) {
       return parseInt(inputNumber) + 5;
-    },"sr").L("ֆCtu").I(Coral.sponges["Է"],"v։t").M("ֆvExձf").M("ֆxyzׄg").M("ֆz{|ձh").L("ֆ{}~").P("c").M("ևu̱̲ձi").N("̳D̲").I(Coral.sponges["Է"],"̴ਯ̱").I(Coral.sponges["Է"],"̵ਰ|").M("׆̵̶̷ׇjձk׊r׷l").I(Coral.sponges["Է"],"̸਱~").L("ֆ̸̹̺").I(Coral.sponges["Ը"],"̻ਞ̺").N("̼e̻").L("ֆ̹̽̾").I(Coral.sponges["Ը"],"̿ਟ̾").N("̀d̿").e()
-};Coral.sponges["ਲ਼"]=function(
-) {
+    },"sr").L("ֆCtu").I(Coral.sponges["Է"],"v֊t").M("ֆvExձf").M("ֆxyz׆g").M("ֆz{|ձh").L("ֆ{}~").P("c").M("ևu̱̲ձi").N("̳D̲").I(Coral.sponges["Է"],"̴਴̱").I(Coral.sponges["Է"],"̵ਵ̴").I(Coral.sponges["Է"],"̶ਸ਼|").M("׈̶̷̸׉jձk׌r׺l").I(Coral.sponges["Է"],"̹਷~").L("ֆ̹̺̻").I(Coral.sponges["Ը"],"̼ਣ̻").N("̽e̼").L("ֆ̺̾̿").I(Coral.sponges["Ը"],"̀ਤ̿").N("́d̀").e()
+};Coral.sponges["ਹ"]=function() {
 // Async pre-init element: demos/demo_010
-this.c("CE").h("E").k(10,0,0,2).b().B("d਩eਪfהgਫhਬiրjִkਭlਮ").R(Coral.sponges["ਨ"],"cਧ}ers̰")
-};Coral.sponges["਴"]=function(
-) {
+this.c("CE").h("E").k(10,0,0,2).b().B("dਮeਯfזgਰh਱iրjֵkਲlਲ਼").R(Coral.sponges["ਭ"],"cਬ}ers̰")
+};Coral.sponges["਺"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_010__main/main__content__demo_010
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ਵ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["਻"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_010__main/main__content__demo_010
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ਲ਼"],"cਲCsF")
-};Coral.sponges["ਸ਼"]="text-success";Coral.sponges["਷"]="Data successfully loaded! You waited ";Coral.sponges["ਸ"]=" seconds.";Coral.sponges["ਹ"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ਹ"],"cਸCsF")
+};Coral.sponges["਼"]="text-success";Coral.sponges["਽"]="Data successfully loaded! You waited ";Coral.sponges["ਾ"]=" seconds.";Coral.sponges["ਿ"]=function() {
 // Sync init element: _inner_view_scope$11
-this.M("֕CEsձc").I(Coral.sponges["Ը"],"t਷s").L("סtuv").N("wDv").I(Coral.sponges["Ը"],"xਸu").e()
-};Coral.sponges["਺"]=function(
-) {
+this.M("֖CEsձc").I(Coral.sponges["Ը"],"t਽s").L("פtuv").N("wDv").I(Coral.sponges["Ը"],"xਾu").e()
+};Coral.sponges["ੀ"]=function() {
 // Async pre-init element: _inner_view_scope$11
-this.c("CE").h("E").k(1,0,0,2).b().B("cਸ਼")
-};Coral.sponges["਻"]="text-danger";Coral.sponges["਼"]="Data failed to fetch! You waited ";Coral.sponges["਽"]=function(
-) {
+this.c("CE").h("E").k(1,0,0,2).b().B("c਼")
+};Coral.sponges["ੁ"]="text-danger";Coral.sponges["ੂ"]="Data failed to fetch! You waited ";Coral.sponges["੃"]=function() {
 // Sync init element: _inner_view_scope$12
-this.M("֕CEsձc").I(Coral.sponges["Ը"],"t਼s").L("סtuv").N("wDv").I(Coral.sponges["Ը"],"xਸu").e()
-};Coral.sponges["ਾ"]=function(
-) {
+this.M("֖CEsձc").I(Coral.sponges["Ը"],"tੂs").L("פtuv").N("wDv").I(Coral.sponges["Ը"],"xਾu").e()
+};Coral.sponges["੄"]=function() {
 // Async pre-init element: _inner_view_scope$12
-this.c("CE").h("E").k(1,0,0,2).b().B("c਻")
-};Coral.sponges["ਿ"]=1;Coral.sponges["ੀ"]=["error"];Coral.sponges["ੁ"]=function(
-) {
+this.c("CE").h("E").k(1,0,0,2).b().B("cੁ")
+};Coral.sponges["੅"]=1;Coral.sponges["੆"]=["error"];Coral.sponges["ੇ"]=function() {
 // Sync init element: demos/demo_011.js->    - inline element at elements.timeoutDisplayZone.type
 this.I(function (timeElapsed /* from fetchDataFromSomewhere.result */) {
             return timeElapsed / 1000;
-          },"rd").X("scੀ").I(function (timeElapsed /* from fetchDataFromSomewhere.error */) {
+          },"rd").X("sc੆").I(function (timeElapsed /* from fetchDataFromSomewhere.error */) {
             return timeElapsed / 1000;
           },"ts").Q("fD").e()
-};Coral.sponges["ੂ"]=["result"];Coral.sponges["੃"]=function(
-) {
+};Coral.sponges["ੈ"]=["result"];Coral.sponges["੉"]=function() {
 // Async pre-init element: demos/demo_011.js->    - inline element at elements.timeoutDisplayZone.type
 this.c("CD").h("D").k(4,0,2,1).i("<div class=\"spinner-border spinner-border-sm mr-3 d-inline-block\" role=\"status\" style=\"color: #da5aa7\"></div><div class=\"d-inline-block\">Fetching data...please wait</div>","").F(function (/* async */ arbitraryAmountOfTimeInMilliseconds, shouldSucceed) {
             // If an async model returns a Promise, the framework will wait for the Promise to be resolved or rejected.
@@ -5573,109 +5481,87 @@ this.c("CD").h("D").k(4,0,2,1).i("<div class=\"spinner-border spinner-border-sm 
                 else reject(arbitraryAmountOfTimeInMilliseconds);
               }, arbitraryAmountOfTimeInMilliseconds);
             });
-          },"c$#").X("dcੂ").G(function anonymous($$condition_0 /* from fetchDataFromSomewhere.result */
-) {
+          },"c$#").X("dcੈ").G(function anonymous($$condition_0 /* from fetchDataFromSomewhere.result */) {
 return $$condition_0?0:1
-},"ed").T(Coral.sponges["਺"],"feօਹCrਿਾ਽Ct")
-};Coral.sponges["੄"]=function () {
+},"ed").T(Coral.sponges["ੀ"],"feօਿCr੅੄੃Ct")
+};Coral.sponges["੊"]=function () {
       return Math.floor(Math.random() * 4000);
-    };Coral.sponges["੅"]="width: 700; height: 200px;";Coral.sponges["੆"]="border rounded p-4";Coral.sponges["ੇ"]=function (reload) {
+    };Coral.sponges["ੋ"]="width: 700; height: 200px;";Coral.sponges["ੌ"]="border rounded p-4";Coral.sponges["੍"]=function (reload) {
       reload({shouldSucceed: true});
-    };Coral.sponges["ੈ"]=function (reload) {
+    };Coral.sponges["੎"]=function (reload) {
       reload({shouldSucceed: false});
-    };Coral.sponges["੉"]="#reload";Coral.sponges["੊"]="#fail";Coral.sponges["ੋ"]="<div class=\"mb-3\"> <button id=\"reload\" type=\"button\" class=\"btn btn-success mr-3\">Reload Data: Simulate Data Fetch Success</button> <button id=\"fail\" type=\"button\" class=\"btn btn-danger\">Reload Data: Simulate Data Fetch Failure</button> </div>";Coral.sponges["ੌ"]=function (args, arbitraryAmountOfTimeInMilliseconds, shouldSucceed, getRandomNumber) {
+    };Coral.sponges["੏"]="#reload";Coral.sponges["੐"]="#fail";Coral.sponges["ੑ"]="<div class=\"mb-3\"> <button id=\"reload\" type=\"button\" class=\"btn btn-success mr-3\">Reload Data: Simulate Data Fetch Success</button> <button id=\"fail\" type=\"button\" class=\"btn btn-danger\">Reload Data: Simulate Data Fetch Failure</button> </div>";Coral.sponges["੒"]=function (args, arbitraryAmountOfTimeInMilliseconds, shouldSucceed, getRandomNumber) {
       var _shouldSucceed = args[0].shouldSucceed;
       Coral.Observable.inTransaction(function () {
         arbitraryAmountOfTimeInMilliseconds.set(getRandomNumber());
         shouldSucceed.set(_shouldSucceed);
       });
-    };Coral.sponges["੍"]="<p>Sometimes things take an unpredictable amount of time.</p>";Coral.sponges["੎"]="<p>Sometimes things succeed.</p>";Coral.sponges["੏"]="<p>Sometimes things fail.</p>";Coral.sponges["੐"]=function(
-) {
+    };Coral.sponges["੓"]="<p>Sometimes things take an unpredictable amount of time.</p>";Coral.sponges["੔"]="<p>Sometimes things succeed.</p>";Coral.sponges["੕"]="<p>Sometimes things fail.</p>";Coral.sponges["੖"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_011.js\" target=\"_blank\">app/elements/demos/demo_011.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_011.hjs\" target=\"_blank\">app/views/demos/demo_011.hjs</a></li> </ul> </div>";Coral.sponges["੗"]=function() {
 // Sync init element: demos/demo_011
-this.L("ֆCrs").I(Coral.sponges["Է"],"t։r").M("ֆtEvձgׄh").I(Coral.sponges["Է"],"wੋv").M("ֆwxyձi").P("e").J(Coral.sponges["ੌ"],"{©cdf").M("ևs|}ձj").N("~D}").I(Coral.sponges["Է"],"੍̰|").I(Coral.sponges["Է"],"̱੎̰").I(Coral.sponges["Է"],"̲੏̱").e()
-};Coral.sponges["ੑ"]=function(
-) {
+this.L("ֆCrs").I(Coral.sponges["Է"],"t֊r").M("ֆtEvձg׆h").I(Coral.sponges["Է"],"wੑv").M("ֆwxyձi").P("e").J(Coral.sponges["੒"],"{©cdf").M("ևs|}ձj").N("~D}").I(Coral.sponges["Է"],"̰੓|").I(Coral.sponges["Է"],"̱੔̰").I(Coral.sponges["Է"],"̲੕̱").I(Coral.sponges["Է"],"̳੖̲").e()
+};Coral.sponges["੘"]=function() {
 // Async pre-init element: demos/demo_011
-this.c("CE").h("E").k(8,0,0,2).b().B("f੄gהh੅i੆jր").G(function (getRandomNumber) {
+this.c("CE").h("E").k(8,0,0,2).b().B("f੊gזhੋiੌjր").G(function (getRandomNumber) {
       return getRandomNumber();
-    },"cf").C("dל").R(Coral.sponges["੃"],"eੁdcyz").g("փ੉ੇ{੊ੈ{")
-};Coral.sponges["੒"]=function(
-) {
+    },"cf").C("dמ").R(Coral.sponges["੉"],"eੇdcyz").g("փ੏੍{੐੎{")
+};Coral.sponges["ਖ਼"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_011__main/main__content__demo_011
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["੓"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["ਗ਼"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_011__main/main__content__demo_011
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ੑ"],"c੐CsF").g("փc")
-};Coral.sponges["੔"]="";Coral.sponges["੕"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["੘"],"c੗CsF").g("փc")
+};Coral.sponges["ਜ਼"]="";Coral.sponges["ੜ"]=function() {
 // Sync init element: __passthrough
-this.I(Coral.sponges["Ը"],"D੔C").e()
-};Coral.sponges["੖"]=function(
-) {
+this.I(Coral.sponges["Ը"],"Dਜ਼C").e()
+};Coral.sponges["੝"]=function() {
 // Async pre-init element: __passthrough
 this.c("CD").h("D").k(0,0,0,1).b()
-};Coral.sponges["੗"]="card mb-2";Coral.sponges["੘"]="width: 18rem;";Coral.sponges["ਖ਼"]="card-body";Coral.sponges["ਗ਼"]="h5";Coral.sponges["ਜ਼"]=function(
-) {
+};Coral.sponges["ਫ਼"]="card mb-2";Coral.sponges["੟"]="width: 18rem;";Coral.sponges["੠"]="card-body";Coral.sponges["੡"]="h5";Coral.sponges["੢"]=function() {
 // Sync init element: bootstrap_components/card
-this.I(function anonymous(text
-) {
+this.I(function anonymous(text) {
 return text ? 'card-title' : ''
-},"r#").M("ֆCFtձgׄh").Q("du").M("ֆuvwձi").M("ਗ਼wxyձr").Q("ez").Q("f{").N("|Dy").e()
-};Coral.sponges["ੜ"]=function(
-) {
+},"r#").M("ֆCFtձg׆h").Q("du").M("ֆuvwձi").M("੡wxyձr").Q("ez").Q("f{").N("|Dy").e()
+};Coral.sponges["੣"]=function() {
 // Async pre-init element: bootstrap_components/card
-this.c("CF").h("F").k(7,0,4,3).b().B("g੗h੘iਖ਼").G(function anonymous(buttonText,buttonLink
-) {
+this.c("CF").h("F").k(7,0,4,3).b().B("gਫ਼h੟i੠").G(function anonymous(buttonText,buttonLink) {
 return buttonText && buttonLink
-},"c%&").S(Coral.sponges["մ"],"d$ճtE$੖੕t").S(Coral.sponges["ո"],"e#շx#੖੕x").S(Coral.sponges["տ"],"fcվz%&੖੕z")
-};Coral.sponges["੝"]=function(
-) {
+},"c%&").S(Coral.sponges["մ"],"d$ճtE$੝ੜt").S(Coral.sponges["ո"],"e#շx#੝ੜx").S(Coral.sponges["տ"],"fcվz%&੝ੜz")
+};Coral.sponges["੤"]=function() {
 // Sync init element: ITEM_WRAPPER_bootstrap_components/card__demos/demo_006__seaCreatureListDisplay__basicEntry
 this.Y("rDE").P("c").e()
-};Coral.sponges["ਫ਼"]=function(
-) {
+};Coral.sponges["੥"]=function() {
 // Async pre-init element: ITEM_WRAPPER_bootstrap_components/card__demos/demo_006__seaCreatureListDisplay__basicEntry
-this.c("CG").h("G").k(1,0,4,4).b().R(Coral.sponges["ੜ"],"cਜ਼#$%&CrFG")
-};Coral.sponges["੟"]="Sea urchin";Coral.sponges["੠"]="Sea urchins use their spines and tube feet to walk around.";Coral.sponges["੡"]="../../assets/images/doodles/sea_urchin.png";Coral.sponges["੢"]="A sea urchin";Coral.sponges["੣"]="Read more about tube feet >>";Coral.sponges["੤"]="https://en.wikipedia.org/wiki/Tube_feet ";Coral.sponges["੥"]="basicEntry";Coral.sponges["੦"]="detailedEntryForSeaUrchin";Coral.sponges["੧"]="<h4>Add a sea creature:</h4>";Coral.sponges["੨"]="<h4>Sea creatures added:</h4>";Coral.sponges["੩"]="<p>Add names of sea creatures to make a list of cards! <em> Examples: jellyfish, sea urchin, clam, seahorse, eel, lobster.</em></p>";Coral.sponges["੪"]="<p>If you add a <strong>sea urchin</strong>, a more detailed card will display.</p>";Coral.sponges["੫"]="<p>Duplicate entries do not get displayed.</p>";Coral.sponges["੬"]=function(
-) {
+this.c("CG").h("G").k(1,0,4,4).b().R(Coral.sponges["੣"],"c੢#$%&CrFG")
+};Coral.sponges["੦"]="Sea urchin";Coral.sponges["੧"]="Sea urchins use their spines and tube feet to walk around.";Coral.sponges["੨"]="../../assets/images/doodles/sea_urchin.png";Coral.sponges["੩"]="A sea urchin";Coral.sponges["੪"]="Read more about tube feet >>";Coral.sponges["੫"]="https://en.wikipedia.org/wiki/Tube_feet ";Coral.sponges["੬"]="basicEntry";Coral.sponges["੭"]="detailedEntryForSeaUrchin";Coral.sponges["੮"]="<h4>Add a sea creature:</h4>";Coral.sponges["੯"]="<h4>Sea creatures added:</h4>";Coral.sponges["ੰ"]="<p>Add names of sea creatures to make a list of cards! <em> Examples: jellyfish, sea urchin, clam, seahorse, eel, lobster.</em></p>";Coral.sponges["ੱ"]="<p>If you add a <strong>sea urchin</strong>, a more detailed card will display.</p>";Coral.sponges["ੲ"]="<p>Duplicate entries do not get displayed.</p>";Coral.sponges["ੳ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_006.js\" target=\"_blank\">app/elements/demos/demo_006.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_006.hjs\" target=\"_blank\">app/views/demos/demo_006.hjs</a></li> </ul> </div>";Coral.sponges["ੴ"]=function() {
 // Sync init element: demos/demo_006
-this.C("r੔").L("ֆCst").I(Coral.sponges["Է"],"u։s").M("ֆuEwձm").L("ֆwxy").I(Coral.sponges["Է"],"z੧y").P("d").M("ֆx|}ձm").I(Coral.sponges["Է"],"~੨}").W("e").M("ևṯ̲ձn").N("̳D̲").I(Coral.sponges["Է"],"̴੩̱").I(Coral.sponges["Է"],"̵੪̴").I(Coral.sponges["Է"],"̶੫̵").e()
-};Coral.sponges["੭"]=["starfish","whale"];Coral.sponges["੮"]=function compare_as_strings (a, b) {
+this.C("rਜ਼").L("ֆCst").I(Coral.sponges["Է"],"u֊s").M("ֆuEwձm").L("ֆwxy").I(Coral.sponges["Է"],"z੮y").P("d").M("ֆx|}ձm").I(Coral.sponges["Է"],"~੯}").W("e").M("ևṯ̲ձn").N("̳D̲").I(Coral.sponges["Է"],"̴ੰ̱").I(Coral.sponges["Է"],"̵ੱ̴").I(Coral.sponges["Է"],"̶ੲ̵").I(Coral.sponges["Է"],"̷ੳ̶").e()
+};Coral.sponges["ੵ"]=["starfish","whale"];Coral.sponges["੶"]=function compare_as_strings(a, b) {
   return (a + '') === (b + '');
-};Coral.sponges["੯"]=function (item) { return /sea urchin/i.test(item) ? 'detailedEntryForSeaUrchin' : 'basicEntry'; };Coral.sponges["ੰ"]=function(
-) {
+};Coral.sponges["੷"]=function (item) { return /sea urchin/i.test(item) ? 'detailedEntryForSeaUrchin' : 'basicEntry'; };Coral.sponges["੸"]=function() {
 // Async pre-init element: demos/demo_006
-this.c("CE").h("E").k(12,0,0,2).b().B("f੔g੟h੠i੡j੢k੣l੤mցnր").C("c੭").R(Coral.sponges["׺"],"d׹zrc{").V(Coral.sponges["੯"],"ec~̰੮੯੥ਫ਼੝ffff¡c f¢੦ੜਜ਼hikl¡gj¢").g("փd")
-};Coral.sponges["ੱ"]=function(
-) {
+this.c("CE").h("E").k(12,0,0,2).b().B("fਜ਼g੦h੧i੨j੩k੪l੫mցnր").C("cੵ").R(Coral.sponges["׽"],"d׼zrc{").V(Coral.sponges["੷"],"ec~̰੶੷੬੥੤ffff¡c f¢੭੣੢hikl¡gj¢").g("փd")
+};Coral.sponges["੹"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_006__main/main__content__demo_006
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ੲ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["੺"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_006__main/main__content__demo_006
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ੰ"],"c੬CsF").g("փc")
-};Coral.sponges["ੳ"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["੸"],"cੴCsF").g("փc")
+};Coral.sponges["੻"]=function() {
 // Sync init element: _inner_view_scope$6
 this.Q("dr").Q("eD").e()
-};Coral.sponges["ੴ"]=function(
-) {
+};Coral.sponges["੼"]=function() {
 // Async pre-init element: _inner_view_scope$6
-this.c("CD").h("D").k(3,0,2,1).b().D(function anonymous($$condition_0 /* from $$view_template_expression_4 */
-) {
+this.c("CD").h("D").k(3,0,2,1).b().D(function anonymous($$condition_0 /* from $$view_template_expression_4 */) {
 return $$condition_0?0:1
-},"c#").T(Coral.sponges["֥"],"dcօ֤Cਿ֧֨C").S(Coral.sponges["ֱ"],"e$ְr੖੕r")
-};Coral.sponges["ੵ"]="reset";Coral.sponges["੶"]="btn btn-warning mr-2";Coral.sponges["੷"]="increment";Coral.sponges["੸"]="btn btn-info mr-2";Coral.sponges["੹"]="min-width: 300px; min-height: 300px;";Coral.sponges["੺"]=2;Coral.sponges["੻"]=function (counterValue) {
+},"c#").T(Coral.sponges["֦"],"dcօ֥C੅֩֨C").S(Coral.sponges["ֲ"],"e$ֱr੝ੜr")
+};Coral.sponges["੽"]="reset";Coral.sponges["੾"]="btn btn-warning mr-2";Coral.sponges["੿"]="increment";Coral.sponges["઀"]="btn btn-info mr-2";Coral.sponges["ઁ"]="min-width: 300px; min-height: 300px;";Coral.sponges["ં"]=2;Coral.sponges["ઃ"]="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_003.js";Coral.sponges["઄"]="_blank";Coral.sponges["અ"]="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_003.hjs";Coral.sponges["આ"]=function (counterValue) {
       counterValue.set(0);
-    };Coral.sponges["੼"]="button#increment";Coral.sponges["੽"]="button#reset";Coral.sponges["੾"]="hr";Coral.sponges["੿"]="Clicking the \"click to +1\" button increments the counter.";Coral.sponges["઀"]="Clicking the \"reset\" button resets the counter to 0.";Coral.sponges["ઁ"]="Different messages are displayed depending on the number of times the +1 button is clicked.";Coral.sponges["ં"]="A fish shall display every 3rd click.";Coral.sponges["ઃ"]="click to +1";Coral.sponges["઄"]=function(
-) {
+    };Coral.sponges["ઇ"]="button#increment";Coral.sponges["ઈ"]="button#reset";Coral.sponges["ઉ"]="hr";Coral.sponges["ઊ"]="Clicking the \"click to +1\" button increments the counter.";Coral.sponges["ઋ"]="Clicking the \"reset\" button resets the counter to 0.";Coral.sponges["ઌ"]="Different messages are displayed depending on the number of times the +1 button is clicked.";Coral.sponges["ઍ"]="A fish shall display every 3rd click.";Coral.sponges["઎"]="Code";Coral.sponges["એ"]="ul";Coral.sponges["ઐ"]="li";Coral.sponges["ઑ"]="app/elements/demos/demo_003.js";Coral.sponges["઒"]="app/views/demos/demo_003.hjs";Coral.sponges["ઓ"]="click to +1";Coral.sponges["ઔ"]=function() {
 // Sync init element: demos/demo_003
-this.L("ֆCrs").L("੾rtu").M("ֆtEwձl").M("քwxyׇm׋nձo").M("քxz{ׇm׋pձq").I(Coral.sponges["Ը"],"|֋z").N("}c|").I(Coral.sponges["Ը"],"~֌}").M("ֆ~̰̱ׄİձı").Q("k̲").M("ևs̴̳ձĲ").N("̵D̴").L("ն̶̷̳").I(Coral.sponges["Ը"],"̸੿̷").L("ն̶̹̺").I(Coral.sponges["Ը"],"̻઀̺").L("ն̹̼̽").I(Coral.sponges["Ը"],"̾ઁ̽").L("ն̼̿̀").I(Coral.sponges["Ը"],"́ં̀").I(Coral.sponges["Ը"],"͂ੵy").I(Coral.sponges["Ը"],"̓ઃ{").e()
-};Coral.sponges["અ"]=function(
-) {
+this.L("ֆCrs").L("ઉrtu").M("ֆtEwձl").M("քwxy׉m׍nձo").M("քxz{׉m׍pձq").I(Coral.sponges["Ը"],"|֌z").N("}c|").I(Coral.sponges["Ը"],"~֍}").M("ֆ~̰̱׆İձı").Q("k̲").M("ևs̴̳ձĲ").N("̵D̴").L("ն̶̷̳").I(Coral.sponges["Ը"],"̸ઊ̷").L("ն̶̹̺").I(Coral.sponges["Ը"],"̻ઋ̺").L("ն̹̼̽").I(Coral.sponges["Ը"],"̾ઌ̽").L("ն̼̿̀").I(Coral.sponges["Ը"],"́ઍ̀").L("ֆ̿͂̓").L("פ̓̈́ͅ").I(Coral.sponges["Ը"],"͆઎ͅ").L("એ͇͈̈́").L("ઐ͈͉͊").M("ջ͊͋͌ռĳսĴ").I(Coral.sponges["Ը"],"͍ઑ͌").L("ઐ͉͎͏").M("ջ͏͐͑ռĵսĴ").I(Coral.sponges["Ը"],"͒઒͑").I(Coral.sponges["Ը"],"͓੽y").I(Coral.sponges["Ը"],"͔ઓ{").e()
+};Coral.sponges["ક"]=function() {
 // Async pre-init element: demos/demo_003
-this.c("CE").h("E").k(18,0,0,2).b().B("lցmքnੵo੶p੷q੸İ੹ı֩Ĳր").C("cօ").D(function (counterValue) {
+this.c("CE").h("E").k(21,0,0,2).b().B("lցmքn੽o੾p੿q઀İઁı֪ĲրĳઃĴ઄ĵઅ").C("cօ").D(function (counterValue) {
       return counterValue === 0;
     },"dc").D(function (counterValue) {
       return counterValue === 1;
@@ -5683,58 +5569,46 @@ this.c("CE").h("E").k(18,0,0,2).b().B("lցmքnੵo੶p੷q੸İ੹ı֩Ĳր").C("
       return counterValue === 2;
     },"fc").D(function (counterValue) {
       return counterValue % 3 === 0;
-    },"gc").D(function anonymous(counterValue
-) {
+    },"gc").D(function anonymous(counterValue) {
 return counterValue === 3
-},"hc").D(function anonymous(counterValue,isMultipleOfThree
-) {
+},"hc").D(function anonymous(counterValue,isMultipleOfThree) {
 return counterValue > 0 && isMultipleOfThree
-},"icg").D(function anonymous($$condition_0 /* from hasNotClicked */,$$condition_1 /* from hasClickedOnce */,$$condition_2 /* from hasClickedTwice */
-) {
+},"icg").D(function anonymous($$condition_0 /* from hasNotClicked */,$$condition_1 /* from hasClickedOnce */,$$condition_2 /* from hasClickedTwice */) {
 return $$condition_0?0:$$condition_1?1:$$condition_2?2:3
-},"jdef").T(Coral.sponges["֜"],"kjօ֛̱ਿ֟֞̱੺֢֡̱ਪੴੳhi̱").g("փ੼ւc੽੻c")
-};Coral.sponges["આ"]=function(
-) {
+},"jdef").T(Coral.sponges["֝"],"kjօ֜̱੅֠֟̱ં֣֢̱ਯ੼੻hi̱").g("փઇւcઈઆc")
+};Coral.sponges["ખ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_003__main/main__content__demo_003
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["ઇ"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["ગ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_003__main/main__content__demo_003
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["અ"],"c઄CsF").g("փc")
-};Coral.sponges["ઈ"]="mt-1";Coral.sponges["ઉ"]="#";Coral.sponges["ઊ"]=function(
-) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ક"],"cઔCsF").g("փc")
+};Coral.sponges["ઘ"]="mt-1";Coral.sponges["ઙ"]="#";Coral.sponges["ચ"]=function() {
 // Sync init element: main/sidebar_item
 this.H(function (sidebarItemId, selectedSidebarItemId) {
       return sidebarItemId === selectedSidebarItemId;
     },"rDF").H(function (isCurrentlySelected) {
       return 'sidebar-item nav-link text-dark ' + (isCurrentlySelected ? 'font-weight-bolder' : '');
-    },"sr").H(function anonymous(isCurrentlySelected
-) {
+    },"sr").H(function anonymous(isCurrentlySelected) {
 return isCurrentlySelected ? 'text-dark': 'text-muted'
-},"tr").M("ֆCuvձd").Q("cG").M("ջvxy׋Dձsռe").N("zEy").e()
-};Coral.sponges["ઋ"]=function(
-) {
+},"tr").M("ֆCuvձd").Q("cG").M("ջvxy׍Dձsռe").N("zEy").e()
+};Coral.sponges["છ"]=function() {
 // Async pre-init element: main/sidebar_item
-this.c("CG").h("G").k(3,0,1,4).b().B("dઈeઉ").S(Coral.sponges["ײ"],"c#ױu#t੖੕u")
-};Coral.sponges["ઌ"]=["id"];Coral.sponges["ઍ"]=function(
-) {
+this.c("CG").h("G").k(3,0,1,4).b().B("dઘeઙ").S(Coral.sponges["׵"],"c#״u#t੝ੜu")
+};Coral.sponges["જ"]=["id"];Coral.sponges["ઝ"]=function() {
 // Sync init element: ITEM_WRAPPER_main/sidebar_item__main/main__sidebarItems__item
-this.X("rcઌ").X("sc֏").P("e").e()
-};Coral.sponges["઎"]=["description"];Coral.sponges["એ"]=function(
-) {
+this.X("rcજ").X("sc֐").P("e").e()
+};Coral.sponges["ઞ"]=["description"];Coral.sponges["ટ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_main/sidebar_item__main/main__sidebarItems__item
-this.c("CE").h("E").k(3,0,2,2).b().Y("c#$").X("dc઎").R(Coral.sponges["ઋ"],"eઊdCrsDE")
-};Coral.sponges["ઐ"]=function (value) {
+this.c("CE").h("E").k(3,0,2,2).b().Y("c#$").X("dcઞ").R(Coral.sponges["છ"],"eચdCrsDE")
+};Coral.sponges["ઠ"]=function (value) {
       var _value = parseFloat(value);
       return _value / 255;
-    };Coral.sponges["ઑ"]=function(
-) {
+    };Coral.sponges["ડ"]=function() {
 // Sync init model: rgb_scaled
 this.e()
-};Coral.sponges["઒"]=function(
-) {
+};Coral.sponges["ઢ"]=function() {
 // Async pre-init model: rgb_scaled
-this.h("&").k(8,1,3,0).b().B("jઐ").D(function (redValue, rgbPartToScaleOf1) {
+this.h("&").k(8,1,3,0).b().B("jઠ").D(function (redValue, rgbPartToScaleOf1) {
       return rgbPartToScaleOf1(redValue);
     },"c#j").D(function (greenValue, rgbPartToScaleOf1) {
       return rgbPartToScaleOf1(greenValue);
@@ -5757,12 +5631,10 @@ this.h("&").k(8,1,3,0).b().B("jઐ").D(function (redValue, rgbPartToScaleOf1) {
       max: maxOfRGBScaledTo1
     };
   },"&cdegi")
-};Coral.sponges["ઓ"]=function(
-) {
+};Coral.sponges["ણ"]=function() {
 // Sync init model: rgb_to_cmyk
 this.e()
-};Coral.sponges["ઔ"]=function(
-) {
+};Coral.sponges["ત"]=function() {
 // Async pre-init model: rgb_to_cmyk
 this.h("$").k(0,1,1,0).b().D(function (rgbScaled) {
     var min = rgbScaled.min;
@@ -5781,12 +5653,10 @@ this.h("$").k(0,1,1,0).b().D(function (rgbScaled) {
       black: k
     };
   },"$#")
-};Coral.sponges["ક"]=function(
-) {
+};Coral.sponges["થ"]=function() {
 // Sync init model: demos/demo_005.js->    - inline model at models.rgbToHSL.type
 this.e()
-};Coral.sponges["ખ"]=function(
-) {
+};Coral.sponges["દ"]=function() {
 // Async pre-init model: demos/demo_005.js->    - inline model at models.rgbToHSL.type
 this.h("$").k(3,1,1,0).b().D(function (rgbScaled) {
             return (rgbScaled.min + rgbScaled.max) / 2;
@@ -5825,17 +5695,16 @@ this.h("$").k(3,1,1,0).b().D(function (rgbScaled) {
             l: luminance
           };
         },"$edc")
-};Coral.sponges["ગ"]=function (value) {
+};Coral.sponges["ધ"]=function (value) {
       var _value = parseInt(value);
       var hex = _value.toString(16);
       var needsPadding = hex.length === 1;
       var formatted = needsPadding ? '0' + hex : hex;
       return formatted.toString();
-    };Coral.sponges["ઘ"]=function (value) {
+    };Coral.sponges["ન"]=function (value) {
       // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus
       return +(value).toFixed(2);
-    };Coral.sponges["ઙ"]="mt-2 ml-2";Coral.sponges["ચ"]="<p>See your colour represented in different formats.</p>";Coral.sponges["છ"]="<strong>RGB</strong>";Coral.sponges["જ"]=" rgb(";Coral.sponges["ઝ"]="<strong>Hex</strong>";Coral.sponges["ઞ"]="<strong>HSL</strong>";Coral.sponges["ટ"]=" hsl(";Coral.sponges["ઠ"]=["h"];Coral.sponges["ડ"]=["s"];Coral.sponges["ઢ"]="%, ";Coral.sponges["ણ"]=["l"];Coral.sponges["ત"]="%)";Coral.sponges["થ"]="<strong>CMYK</strong>";Coral.sponges["દ"]=" cmyk(";Coral.sponges["ધ"]=["c"];Coral.sponges["ન"]=["m"];Coral.sponges["઩"]=["y"];Coral.sponges["પ"]=["k"];Coral.sponges["ફ"]=function(
-) {
+    };Coral.sponges["઩"]="mt-2 ml-2";Coral.sponges["પ"]="<p>See your colour represented in different formats.</p>";Coral.sponges["ફ"]="<div> <strong>Code</strong> <ul> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_005.js\" target=\"_blank\">app/elements/demos/demo_005.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/models/rgb_scaled.js\" target=\"_blank\">app/models/rgb_scaled.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/models/rgb_to_cmyk.js\" target=\"_blank\">app/models/rgb_to_cmyk.js</a></li> <li><a href=\"https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_005.hjs\" target=\"_blank\">app/views/demos/demo_005.hjs</a></li> </ul> </div>";Coral.sponges["બ"]="<strong>RGB</strong>";Coral.sponges["ભ"]=" rgb(";Coral.sponges["મ"]="<strong>Hex</strong>";Coral.sponges["ય"]="<strong>HSL</strong>";Coral.sponges["ર"]=" hsl(";Coral.sponges["઱"]=["h"];Coral.sponges["લ"]=["s"];Coral.sponges["ળ"]="%, ";Coral.sponges["઴"]=["l"];Coral.sponges["વ"]="%)";Coral.sponges["શ"]="<strong>CMYK</strong>";Coral.sponges["ષ"]=" cmyk(";Coral.sponges["સ"]=["c"];Coral.sponges["હ"]=["m"];Coral.sponges["઺"]=["y"];Coral.sponges["઻"]=["k"];Coral.sponges["઼"]=function() {
 // Sync init element: demos/demo_005
 this.H(function (redValue, greenValue, blueValue, rgbPartToHex) {
       var RR = rgbPartToHex(redValue);
@@ -5854,42 +5723,35 @@ this.H(function (redValue, greenValue, blueValue, rgbPartToHex) {
         s: roundToTwoDecimalPlaces(rgbToHSL.s * 100),
         l: roundToTwoDecimalPlaces(rgbToHSL.l * 100)
       };
-    },"tkn").L("ֆCuv").M("ևvwxձo").N("yDx").I(Coral.sponges["Է"],"z׃w").I(Coral.sponges["Է"],"{ચz").I(Coral.sponges["Է"],"|։u").M("ֆ|E~ձp").M("ֆ~̰̱ձq").M("ֆ̱̲̳ׄl").I(Coral.sponges["Ը"],"̴ׅ̳").M("׆̴̵̶ׇİ׈ı׉Ĳ׊c").M("׆̷̸̲׋ĳׇĴ׈ı׉Ĳ׊cձĵ").M("ֆ̰̹̺ձq").M("ֆ̺̻̼ׄl").I(Coral.sponges["Ը"],"̽׌̼").M("׆ׇ̽̾̿İ׈ı׉Ĳ׊d").M("׆̻̀́׋ĶׇĴ׈ı׉Ĳ׊dձĵ").M("ֆ̹͂̓ձq").M("ֆ̓̈́ׄͅl").I(Coral.sponges["Ը"],"͆׍ͅ").M("׆ׇ͇͈͆İ׈ı׉Ĳ׊e").M("׆͉̈́͊׋ķׇĴ׈ı׉Ĳ׊eձĵ").M("ֆ͂͋͌ձĸ").I(Coral.sponges["Է"],"͍છ͌").I(Coral.sponges["Ը"],"͎જ͍").N("͏c͎").I(Coral.sponges["Ը"],"͐־͏").N("͑d͐").I(Coral.sponges["Ը"],"͒־͑").N("͓e͒").I(Coral.sponges["Ը"],"͔׏͓").M("ֆ͕͖͋ձĹ").I(Coral.sponges["Է"],"͗ઝ͖").I(Coral.sponges["Ը"],"͘֌͗").N("͙r͘").M("ֆ͕͚͛ձĹ").I(Coral.sponges["Է"],"͜ઞ͛").I(Coral.sponges["Ը"],"͝ટ͜").X("͞kઠ").N("͟͞͝").I(Coral.sponges["Ը"],"͠־͟").X("͡tડ").N("͢͡͠").I(Coral.sponges["Ը"],"ͣઢ͢").X("ͤtણ").N("ͥͤͣ").I(Coral.sponges["Ը"],"ͦતͥ").M("ֆ͚ͧͨձĹ").I(Coral.sponges["Է"],"ͩથͨ").I(Coral.sponges["Ը"],"ͪદͩ").X("ͫsધ").N("ͬͫͪ").I(Coral.sponges["Ը"],"ͭઢͬ").X("ͮsન").N("ͯͮͭ").I(Coral.sponges["Ը"],"Ͱઢͯ").X("ͱs઩").N("ͲͱͰ").I(Coral.sponges["Ը"],"ͳઢͲ").X("ʹsપ").N("͵ʹͳ").I(Coral.sponges["Ը"],"Ͷત͵").M("ֆͧͷ͸ձqׄĺcĻdĻeļ").e()
-};Coral.sponges["બ"]=71;Coral.sponges["ભ"]=199;Coral.sponges["મ"]=92;Coral.sponges["ય"]=function(
-) {
+    },"tkn").L("ֆCuv").M("ևvwxձo").N("yDx").I(Coral.sponges["Է"],"zׄw").I(Coral.sponges["Է"],"{પz").I(Coral.sponges["Է"],"|ફ{").I(Coral.sponges["Է"],"}֊u").M("ֆ}Ḛձp").M("ֆ̰̱̲ձq").M("ֆ̴̲̳׆l").I(Coral.sponges["Ը"],"̵̴ׇ").M("׈̵̶̷׉İ׊ı׋Ĳ׌c").M("׈̸̳̹׍ĳ׉Ĵ׊ı׋Ĳ׌cձĵ").M("ֆ̱̺̻ձq").M("ֆ̻̼̽׆l").I(Coral.sponges["Ը"],"̾׎̽").M("׈̾̿̀׉İ׊ı׋Ĳ׌d").M("׈̼́͂׍Ķ׉Ĵ׊ı׋Ĳ׌dձĵ").M("ֆ̺̓̈́ձq").M("ֆ̈́͆ͅ׆l").I(Coral.sponges["Ը"],"͇׏͆").M("׈͇͈͉׉İ׊ı׋Ĳ׌e").M("׈͊͋ͅ׍ķ׉Ĵ׊ı׋Ĳ׌eձĵ").M("ֆ͍̓͌ձĸ").I(Coral.sponges["Է"],"͎બ͍").I(Coral.sponges["Ը"],"͏ભ͎").N("͐c͏").I(Coral.sponges["Ը"],"ֿ͑͐").N("͒d͑").I(Coral.sponges["Ը"],"ֿ͓͒").N("͔e͓").I(Coral.sponges["Ը"],"͕ב͔").M("ֆ͖͌͗ձĹ").I(Coral.sponges["Է"],"͘મ͗").I(Coral.sponges["Ը"],"͙֍͘").N("͚r͙").M("ֆ͖͛͜ձĹ").I(Coral.sponges["Է"],"͝ય͜").I(Coral.sponges["Ը"],"͞ર͝").X("͟k઱").N("͟͠͞").I(Coral.sponges["Ը"],"ֿ͡͠").X("͢tલ").N("ͣ͢͡").I(Coral.sponges["Ը"],"ͤળͣ").X("ͥt઴").N("ͦͥͤ").I(Coral.sponges["Ը"],"ͧવͦ").M("ֆ͛ͨͩձĹ").I(Coral.sponges["Է"],"ͪશͩ").I(Coral.sponges["Ը"],"ͫષͪ").X("ͬsસ").N("ͭͬͫ").I(Coral.sponges["Ը"],"ͮળͭ").X("ͯsહ").N("Ͱͯͮ").I(Coral.sponges["Ը"],"ͱળͰ").X("Ͳs઺").N("ͳͲͱ").I(Coral.sponges["Ը"],"ʹળͳ").X("͵s઻").N("Ͷ͵ʹ").I(Coral.sponges["Ը"],"ͷવͶ").M("ֆͨ͸͹ձq׆ĺcĻdĻeļ").e()
+};Coral.sponges["ઽ"]=71;Coral.sponges["ા"]=199;Coral.sponges["િ"]=92;Coral.sponges["ી"]=function() {
 // Async pre-init element: demos/demo_005
-this.c("CE").h("E").k(28,0,0,2).b().B("lֲmગnઘoրpցqֳİִıֵĲֶĳַĴָĵֹĶֺķֻĸּĹઙĺֽĻ־ļֿ").C("cબ").C("dભ").C("eમ").R(Coral.sponges["઒"],"fઑcdeg").R(Coral.sponges["ઔ"],"hઓgi").R(Coral.sponges["ખ"],"jકgk")
-};Coral.sponges["ર"]=function(
-) {
+this.c("CE").h("E").k(28,0,0,2).b().B("lֳmધnનoրpցqִİֵıֶĲַĳָĴֹĵֺĶֻķּĸֽĹ઩ĺ־Ļֿļ׀").C("cઽ").C("dા").C("eિ").R(Coral.sponges["ઢ"],"fડcdeg").R(Coral.sponges["ત"],"hણgi").R(Coral.sponges["દ"],"jથgk")
+};Coral.sponges["ુ"]=function() {
 // Sync init element: ITEM_WRAPPER_demos/demo_005__main/main__content__demo_005
-this.Y("rDE").X("sr֏").P("c").e()
-};Coral.sponges["઱"]=function(
-) {
+this.Y("rDE").X("sr֐").P("c").e()
+};Coral.sponges["ૂ"]=function() {
 // Async pre-init element: ITEM_WRAPPER_demos/demo_005__main/main__content__demo_005
-this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ય"],"cફCsF")
-};Coral.sponges["લ"]=[{id:"demo_intro",title:"Demos"},{id:"demo_001",title:"001: Click to Increment",description:"Variables and Events (click handler)."},{id:"demo_002",title:"002: Red or Blue?",description:"Models and inline expressions in the view."},{id:"demo_003",title:"003: Fish",description:"View conditionals {{#if _}}, {{#elseif _}}, {{#else _}}, {{#endif _}} and using inline expressions in them."},{id:"demo_004",title:"004: RGB",description:"Two-way value binding."},{id:"demo_005",title:"005: RGB Converter",description:"Different ways to write Models."},{id:"demo_006",title:"006: Sea Creature List",description:"Elements and Dynamic Element Lists."},{id:"demo_007",title:"007: Outer/Inner",description:"Element and Dynamic Element List nesting, Event listener behaviour, Dynamic Element Lists using \"item\" notation."},{id:"demo_008",title:"008: Multiplication Tables",description:"emitEvent and catching emitEvents."},{id:"demo_009",title:"009: Countdown to zero",description:"The Initialize event handler, .set() true flag."},{id:"demo_010",title:"010: Magic Number",description:"environmentVars."},{id:"demo_011",title:"011: Data Fetch Simulator",description:"Async Models, Zones, Callbacks, /* from */ Parameter annotation"}];Coral.sponges["ળ"]="root-dom-node";Coral.sponges["઴"]="container-fluid";Coral.sponges["વ"]="row flex-xl-nowrap";Coral.sponges["શ"]="sidebar";Coral.sponges["ષ"]="mt-2 col-12 col-xl-2 border-right";Coral.sponges["સ"]="nav flex-column";Coral.sponges["હ"]="ml-4 mt-4 col-12 col-xl-9";Coral.sponges["઺"]="demo_intro";Coral.sponges["઻"]="demo_001";Coral.sponges["઼"]="demo_002";Coral.sponges["ઽ"]="demo_003";Coral.sponges["ા"]="demo_004";Coral.sponges["િ"]="demo_005";Coral.sponges["ી"]="demo_006";Coral.sponges["ુ"]="demo_007";Coral.sponges["ૂ"]="demo_008";Coral.sponges["ૃ"]="demo_009";Coral.sponges["ૄ"]="demo_010";Coral.sponges["ૅ"]="demo_011";Coral.sponges["૆"]=function (event, selectedSidebarItemId) {
+this.c("CF").h("F").k(1,0,0,3).b().R(Coral.sponges["ી"],"c઼CsF")
+};Coral.sponges["ૃ"]=[{id:"demo_intro",title:"Demos"},{id:"demo_001",title:"001: Click to Increment",description:"Variables and Events (click handler)."},{id:"demo_002",title:"002: Red or Blue?",description:"Models and inline expressions in the view."},{id:"demo_003",title:"003: Fish",description:"View conditionals {{#if _}}, {{#elseif _}}, {{#else _}}, {{#endif _}} and using inline expressions in them."},{id:"demo_004",title:"004: RGB",description:"Two-way value binding."},{id:"demo_005",title:"005: RGB Converter",description:"Different ways to write Models."},{id:"demo_006",title:"006: Sea Creature List",description:"Elements and Dynamic Element Lists."},{id:"demo_007",title:"007: Outer/Inner",description:"Element and Dynamic Element List nesting, Event listener behaviour, Dynamic Element Lists using \"item\" notation."},{id:"demo_008",title:"008: Multiplication Tables",description:"emitEvent and catching emitEvents."},{id:"demo_009",title:"009: Countdown to zero",description:"The Initialize event handler, .set() true flag."},{id:"demo_010",title:"010: Magic Number",description:"environmentVars."},{id:"demo_011",title:"011: Data Fetch Simulator",description:"Async Models, Zones, Callbacks, /* from */ Parameter annotation"}];Coral.sponges["ૄ"]="root-dom-node";Coral.sponges["ૅ"]="container-fluid";Coral.sponges["૆"]="row flex-xl-nowrap";Coral.sponges["ે"]="sidebar";Coral.sponges["ૈ"]="mt-2 col-12 col-xl-2 border-right";Coral.sponges["ૉ"]="nav flex-column";Coral.sponges["૊"]="ml-4 mt-4 col-12 col-xl-9";Coral.sponges["ો"]="demo_intro";Coral.sponges["ૌ"]="demo_001";Coral.sponges["્"]="demo_002";Coral.sponges["૎"]="demo_003";Coral.sponges["૏"]="demo_004";Coral.sponges["ૐ"]="demo_005";Coral.sponges["૑"]="demo_006";Coral.sponges["૒"]="demo_007";Coral.sponges["૓"]="demo_008";Coral.sponges["૔"]="demo_009";Coral.sponges["૕"]="demo_010";Coral.sponges["૖"]="demo_011";Coral.sponges["૗"]=function (event, selectedSidebarItemId) {
       var elementId = event.target && event.target.id;
       if (elementId) selectedSidebarItemId.set(elementId);
-    };Coral.sponges["ે"]=".sidebar-item";Coral.sponges["ૈ"]="<nav class=\"navbar navbar-light bg-light\">  <container class=\"mx-auto\"> <a class=\"navbar-brand\" href=\"#\"> <img src=\"../../assets/brand/logo_proto.png\" width=\"28\" height=\"28\" class=\"d-inline-block align-top rounded\" alt=\"placeholder logo\"> <span class=\"text-dark font-monospace\">Coral.js Demos</span> </a> </container> </nav>";Coral.sponges["ૉ"]="nav";Coral.sponges["૊"]="main";Coral.sponges["ો"]="<div class=\"mx-auto mt-2 mb-4\" style=\"width: 300px;\"> <small> visit github: <a href=\"https://github.com/lockerdome/coral.js-tutorials\" target=\"blank\" class=\"color-coral\">coral.js-tutorials</a> &nbsp;|&nbsp; <a href=\"https://github.com/lockerdome/coral.js\" target=\"blank\" class=\"color-coral\">coral.js</a> </small> </div>";Coral.sponges["ૌ"]=function(
-) {
+    };Coral.sponges["૘"]=".sidebar-item";Coral.sponges["૙"]="<nav class=\"navbar navbar-light bg-light\">  <container class=\"mx-auto\"> <a class=\"navbar-brand\" href=\"#\"> <img src=\"../../assets/brand/logo_proto.png\" width=\"28\" height=\"28\" class=\"d-inline-block align-top rounded\" alt=\"placeholder logo\"> <span class=\"text-dark font-monospace\">Coral.js Demos</span> </a> </container> </nav>";Coral.sponges["૚"]="nav";Coral.sponges["૛"]="main";Coral.sponges["૜"]="<div class=\"mx-auto mt-2 mb-4\" style=\"width: 300px;\"> <small> visit github: <a href=\"https://github.com/lockerdome/coral.js-tutorials\" target=\"blank\" class=\"color-coral\">coral.js-tutorials</a> &nbsp;|&nbsp; <a href=\"https://github.com/lockerdome/coral.js\" target=\"blank\" class=\"color-coral\">coral.js</a> </small> </div>";Coral.sponges["૝"]=function() {
 // Sync init element: main/main
-this.M("ֆCDs׋h").I(Coral.sponges["Է"],"tૈs").M("ֆtuvձi").M("ֆvwxձj").M("ֆxyz׋kձl").M("ૉz{|ձm").W("e").M("૊y~̰ձn").W("f").I(Coral.sponges["Է"],"̲ોu").d("f").e()
-};Coral.sponges["્"]=function(a,b
-) {
+this.M("ֆCDs׍h").I(Coral.sponges["Է"],"t૙s").M("ֆtuvձi").M("ֆvwxձj").M("ֆxyz׍kձl").M("૚z{|ձm").W("e").M("૛y~̰ձn").W("f").I(Coral.sponges["Է"],"̲૜u").d("f").e()
+};Coral.sponges["૞"]=function(a,b) {
 return ((a&&a.id)+"")===((b&&b.id)+"")
-};Coral.sponges["૎"]=function (item) { return item.id; };Coral.sponges["૏"]=function(
-) {
+};Coral.sponges["૟"]=function (item) { return item.id; };Coral.sponges["ૠ"]=function() {
 // Async pre-init element: main/main
-this.c("CD").h("D").k(12,0,0,1).i(undefined,"").B("gલhળi઴jવkશlષmસnહ").C("c઺").D(function (sidebarItemsList, selectedSidebarItemId) {
+this.c("CD").h("D").k(12,0,0,1).i(undefined,"").B("gૃhૄiૅj૆kેlૈmૉn૊").C("cો").D(function (sidebarItemsList, selectedSidebarItemId) {
       for (var i = 0; i !== sidebarItemsList.length; i++) {
         var sidebarItem = sidebarItemsList[i];
         if (sidebarItem.id === selectedSidebarItemId) return [sidebarItem];
       }
       return [];
-    },"dgc").U(Coral.sponges["એ"],"eઍg|}્g ¡c¢").V(Coral.sponges["૎"],"fd્̰̱૎઺תש¡d ¢઻֑֐¡d ¢઼֙֘¡d ¢ઽઇઆ¡d ¢ાדג¡d ¢િ઱ર¡d ¢ીੲੱ¡d ¢ુؘؗ¡d ¢ૂਚਙ¡d ¢ૃץפ¡d ¢ૄਵ਴¡d ¢ૅ੓੒¡d ¢").g("փfփે૆£c")
-};Coral.sponges["coral_start"]=function(placement,parameter_values,settings,coral
-) {
-var inner_placement = document.createTextNode("");placement.appendChild(inner_placement);parameter_values.__placement = inner_placement;return Coral.sponges["Ն"](Coral.sponges["૏"],Coral.sponges["ૌ"],parameter_values,{"__placement":"C"},coral)
+    },"dgc").U(Coral.sponges["ટ"],"eઝg|}૞g ¡c¢").V(Coral.sponges["૟"],"fd̰̱૞૟ો׭׬¡d ¢ૌ֑֒¡d ¢્֚֙¡d ¢૎ગખ¡d ¢૏וה¡d ¢ૐૂુ¡d ¢૑੺੹¡d ¢૒؜؛¡d ¢૓ਟਞ¡d ¢૔רק¡d ¢૕਻਺¡d ¢૖ਗ਼ਖ਼¡d ¢").g("փfփ૘૗£c")
+};Coral.sponges["coral_start"]=function(placement,parameter_values,settings,coral) {
+var inner_placement = document.createTextNode("");placement.appendChild(inner_placement);parameter_values.__placement = inner_placement;return Coral.sponges["Ն"](Coral.sponges["ૠ"],Coral.sponges["૝"],parameter_values,{"__placement":"C"},coral)
 };Coral.sponges[""]={};Coral.sponges[""]={};
 Coral.Scope.prototype.A = function (packed_args) {
       var scope_context = this;
@@ -7073,7 +6935,7 @@ Coral.Scope.prototype.k = function (async_internal_count, async_output_count, as
 Coral.Scope.prototype.l = function (scope_async_pre_init_function, sync_init_function) {
       return new Coral.Scope(this, scope_async_pre_init_function, sync_init_function, this.coral_instance);
     };
-Coral.Scope.prototype.m = function recursive_destroy_scope_cascade () {
+Coral.Scope.prototype.m = function recursive_destroy_scope_cascade() {
       this[''] = true;
 
       // TODO: Make sure Unresolveds are cleaned up on zone re-initialization
@@ -7159,7 +7021,7 @@ Coral.Scope.prototype.m = function recursive_destroy_scope_cascade () {
         }
       }
     };
-Coral.Scope.prototype.n = function recursive_is_destroyed () {
+Coral.Scope.prototype.n = function recursive_is_destroyed() {
       // TODO: If we remove volatile update handlers on destroy, then the handling in here shouldn't need to scan upward since there shouldn't be anything inserting updates to things other than the parameters for the destroyed scope and its descendants.
 
       if (this['']) {
@@ -7464,7 +7326,7 @@ Coral.Scope.prototype.Ĺ = function (func, packed_args, set_handler, set_handler
       var scope_symbol_instance_metadata = this['r'](packed_args[0]);
       scope_symbol_instance_metadata.assign_set_handler(set_handler, set_handler_metadata);
     };
-Coral.Scope.prototype.ĺ = function traverse_symbol_ancestors (symbol, func, callback) {
+Coral.Scope.prototype.ĺ = function traverse_symbol_ancestors(symbol, func, callback) {
       var update_metadata = this[''][symbol];
       var instance_update_metadata = this[''][symbol];
       if (func) func(update_metadata, instance_update_metadata);
@@ -7759,7 +7621,7 @@ Coral.Scope.prototype.Ň = function (event_handler_function, packed_args, event,
 
       event_handler_function.apply(null, args);
     };
-Coral.Scope.prototype.ň = function recursive_waterfall_scope_event (event, event_type_descending_instruction_symbols, event_type_own_event_instruction_symbols) {
+Coral.Scope.prototype.ň = function recursive_waterfall_scope_event(event, event_type_descending_instruction_symbols, event_type_own_event_instruction_symbols) {
       /* jshint loopfunc:true */
       var i;
       var j;
