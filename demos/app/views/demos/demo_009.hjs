@@ -1,6 +1,13 @@
 <div>
   <h2 class="mb-3 font-weight-bolder">{{title}}</h2>
   <p>Changing the starting value or clicking the Restart button restarts the countdown.</p>
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_009.js" target="_blank">app/elements/demos/demo_009.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_009.hjs" target="_blank">app/views/demos/demo_009.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>

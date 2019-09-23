@@ -3,6 +3,13 @@
   <p>Clicking the button increments the counter.</p>
   <p>Even numbers will appear in <span class="text-primary">blue</span>.</p>
   <p>Odd numbers will appear in <span class="text-danger">red</span>.</p>
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_002.js" target="_blank">app/elements/demos/demo_002.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_002.hjs" target="_blank">app/views/demos/demo_002.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>

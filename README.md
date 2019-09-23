@@ -3,7 +3,7 @@
 
 Coral.js is an open source project of [LockerDome](https://lockerdome.com).
 
-[Visit our live demo app here.](https://lockerdome.github.io/coral.js-tutorials/demos/static/)
+### [Visit our live demo app here.](https://lockerdome.github.io/coral.js-tutorials/demos/static/)
 
 ###  Table of Contents
 * [List of Demos](#list_of_demos)

@@ -4,6 +4,13 @@
   <p>Clicking the "reset" button resets the counter to 0.</p>
   <p>Different messages are displayed depending on the number of times the +1 button is clicked.</p>
   <p>A fish shall display every 3rd click.</p>
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_003.js" target="_blank">app/elements/demos/demo_003.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_003.hjs" target="_blank">app/views/demos/demo_003.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>

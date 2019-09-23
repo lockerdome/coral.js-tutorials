@@ -3,7 +3,13 @@
   <p>Add names of sea creatures to make a list of cards! <em> Examples: jellyfish, sea urchin, clam, seahorse, eel, lobster.</p></em>
   <p>If you add a <strong>sea urchin</strong>, a more detailed card will display.</p>
   <p>Duplicate entries do not get displayed.</p>
-
+  <div>
+    <strong>Code</strong>
+    <ul>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/elements/demos/demo_006.js" target="_blank">app/elements/demos/demo_006.js</a></li>
+      <li><a href="https://github.com/lockerdome/coral.js-tutorials/blob/master/demos/app/views/demos/demo_006.hjs" target="_blank">app/views/demos/demo_006.hjs</a></li>
+    </ul>
+  </div>
 </div>
 
 <hr>

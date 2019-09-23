@@ -1,4 +1,5 @@
 var rgb_scaled = {
+  // This Model converts the RGB colour format to use a 0-1 range.
   params: ['redValue', 'greenValue', 'blueValue'],
   constants: {
     rgbPartToScaleOf1: function (value) {
